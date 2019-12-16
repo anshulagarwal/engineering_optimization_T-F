@@ -345,7 +345,6 @@ It consists of an objective function and set of constraint functions which are d
 \subsubsection{Objective Function}
 
 Equation \eqref{e:obj} is used to specify the aim of deploying minimum number of sensors in the building to sense factors.
-
 \begin{equation}
   \label{e:obj}
   minimize \sum_{l \in \{L\}} \sum_{k \in \{K\}} \sum_{s \in \{s^k\}}  used(l,k,s)
@@ -354,14 +353,11 @@ Equation \eqref{e:obj} is used to specify the aim of deploying minimum number of
 \subsubsection{Constriant Functions}
 
 \noindent $\diamond$ Sensing Requirement: this constraint is specified by Equation \eqref{e:sense_req} and ensures that the final optimal sensor allocation satisfies the sensing requirement required for the smart building.
-
 \begin{equation}
   \label{e:sense_req}
   \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = tosense(l,k)
 \end{equation}
 
-
-\textbf{?? ?? spell check ?? ??}
 
 
 \noindent $\diamond$ Sensing Rules: A hard sensor denotes a physical sensor like smartmeter and temperature sensor. 
@@ -371,7 +367,6 @@ The following set of rules determine the sensing a factor $k$ at a location $l$ 
 
   \noindent Rule 1: If a hard sensor $s_i^k$ is allocated in location $l$, then the factor $k$ is sensible in location $l$. 
   This rule is denoted by Equation \eqref{e:1rule}.
-
 \begin{equation}
   \label{e:1rule}
   \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = 
@@ -380,7 +375,6 @@ The following set of rules determine the sensing a factor $k$ at a location $l$ 
 
   \noindent Rule 2: If a soft sensor, that infers factor $k$ from others factors $\{k_i\}$, is allocated in location $l$ and factors $\{k_i\}$ are sensible in location $l$, then the factor $k$ is sensible in location $l$.
   This rule is denoted by Equation \eqref{e:2rule}.
-
 \begin{equation}
   \label{e:2rule}
   \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = 
@@ -388,7 +382,6 @@ The following set of rules determine the sensing a factor $k$ at a location $l$ 
   \end{equation}
 
 Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifying the sensing rules is denoted by Equation \eqref{e:rules} as follows: 
-
 \begin{equation}
   \label{e:rules}
   \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = \max \left(
@@ -401,8 +394,7 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
   % To sense the temperature of a room,
   The temperature values of the room's sub-locations (zones) are aggregated using a function like average to represent the temperature of the room.
   This constraint is represented by Equation \eqref{e:sub_loc} as follows:
-
-  \begin{equation}
+\begin{equation}
     \label{e:sub_loc}
     \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = \max \left(
   \sum_{s \in \{s^k\}}  used(l,k,s) , 
@@ -412,8 +404,7 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
 
   \noindent $\diamond$ Limiting the sensors: if $limit(s_i^k)$, which represents the maximum number of sensor $s_i$ sensing factor k that can be deployed, is provided as input, then this constraint ensures that the total number of sensors of the type $s_i^k$ deployed in the optimal sensor allocation does not exceed the provided limit.
   It is denoted by Equation \eqref{e:limit}.
-
- \begin{equation}
+\begin{equation}
   \label{e:limit}
     \forall k \in \{K\} \;\; \forall s \in \{s^k\} \quad \left(
       \sum_{l \in \{L\}} used(l,k,s)
