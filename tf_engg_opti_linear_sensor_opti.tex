@@ -47,7 +47,15 @@
 \maketitle
 
 \begin{abstract}
-  Smart buildings are considered to be the new age buildings. They are expected to evolve continuously and provide intelligent solutions. This is achieved by sensing the different factors. The existing approaches overlook the problems associated with the deployment of a large number of sensors. However, this article presents a novel and holistic optimal sensor deployment method -- optimization framework for sensing different factors to make buildings smarter. It describes how intelligently using the existing information can lead to a reduction in sensors. The method is compared with the baseline approach which deploys sensors at all the locations where they should be sensed. This optimization framework has been compared with the baseline approach for an existing building. The results indicate that the newly developed optimization framework requires 72.92\% less sensors as compared to the baseline approach. This feature makes it an impressive proposition and results in much less in e-waste generation. 
+  Smart buildings are considered to be the new age buildings.
+  They are expected to evolve continuously and provide intelligent solutions.
+  This is achieved by sensing the different factors of the building.
+  The existing approaches overlook the problems associated with the deployment of a large number of sensors.
+  However, this article presents a novel and holistic optimal sensor deployment method -- an optimization framework for sensing different factors to make buildings smarter.
+  It describes how intelligently using the existing information can lead to a reduction in sensors.
+  The optimization framework is compared with the baseline approach, which deploys sensors at all the locations where they should be sensed, for an existing building.
+  The results indicate that the newly developed optimization framework requires 72.92\% less sensors as compared to the baseline approach.
+  This feature makes it an impressive proposition and results in lesser in e-waste generation. 
 \end{abstract}
 
 \begin{keywords}
@@ -56,23 +64,25 @@ Smart Buildings; Sensor Deployment; Optimization Framework; Baseline Approach; S
 
 \section{Introduction}
 
-
-
 Internet of Things (IoT) and Cyber-Physical Systems (CPS) are the two very commonly heard terms nowadays. Due to the advent of these technologies, buildings have evolved from being intelligent to becoming smarter. A smart building is expected to fulfill tasks like monitoring the health of appliances, provide thermal comfort to the users \citep{elsevier_hvac}, track occupants in the building, and optimize and reduce the wastage of energy \citep{karmakar}. However, fulfilling these tasks requires sensing of factors such as energy consumption, occupancy and type of appliances that are switched ON. Therefore, it is important to deploy sensors in the building to sense these factors of interest \citep{anshul_sensys_demo}. 
 % (Agarwal et al. 2016a).
 There exist various techniques for placement of sensors in the buildings to sense different factors \citep{bellala_electrons, meyn}. However, these techniques do not consider the issues related to the deployment of a large number of sensors, such as increased user inconvenience and capital cost of procuring, installing, maintaining and upgrading the sensors, disturbing the aesthetics of the building, incremental investment on storage and communication facilities for the sensors and threat to privacy \citep{hitchhiker_sensors,stankovic_iot}. The most worrying drawback of these techniques is the increased generation of e-waste. 
-In 2016, the CEO of SoftBank Group Corporation estimated that there would be at least a trillion connected devices around the world in the next 20 years \citep{IntofTrash}. However, the existing techniques fail to provide effective solutions with sensor minimization as an important parameter.
-
-
+In 2016, the CEO of SoftBank Group Corporation estimated that there would be at least a trillion connected devices around the world in the next 20 years \citep{IntofTrash}. Therefore, the existing techniques fail to provide effective solutions with sensor minimization as an important parameter.
 In fact, rapid research in data mining, algorithms, and machine/deep learning approaches has led to efficient techniques for processing large amounts of sensor data. This encourages the approach of throwing sensors at the problem so that large amounts of data are generated and can be processed to provide smart applications and experience. 
 
-The objective of this article is to provide an approach that reduces the number of sensors to be deployed to overcome the various issues related to the deployment of a large number of sensors in a smart building. The major contribution of this article is a novel and holistic approach to optimal sensor deployment in buildings to make it smarter by sensing the factors of interest. It uses soft sensing, which implies inferring a factor from other set of factors, as the primary tool to reduce the deployment of sensors; it defines how existing information can be intelligently used to infer the factors of interest, and thus reduce the number of sensors to be deployed. For instance, \cite{occupancy_wifi} demonstrated how occupancy can be inferred in the buildings using the Wi-Fi signal information. The effectiveness of this approach is tested on a real-world problem of sensor deployment in an existent building to make it smarter and demonstrate an impressive reduction in sensors.
+The objective of this article is to provide an approach that reduces the number of sensors that should be deployed to overcome the various issues related to the deployment of a large number of sensors in a smart building. The major contribution of this article is a novel and holistic approach to optimal sensor deployment in buildings to make it smarter by sensing the factors of interest. It uses soft sensing which implies inferring a factor from other set of factors; 
+for instance, \cite{occupancy_wifi} demonstrated how occupancy can be inferred in the buildings using the Wi-Fi signal information. 
+Soft sensing  
+% is used as the primary tool to reduce the number of sensors; it 
+defines how existing information can be intelligently used to infer the factors of interest, and thus used as a primary tool to  reduce the number of sensors to be deployed. 
+The effectiveness of this approach is tested on a real-world problem of sensor deployment in an existent building to make it smarter and demonstrate an impressive reduction in sensors.
 
 \section{Literature Review}
 
 % \textbf{?? to review refs ?? ??}
-This article  presents (a) a holistic optimization framework for satisfying BMS requirements (b) seamless deployment of hard  and soft sensors and  
-(c) utilizing a minimum number of sensors and deploying them at the right places in a building. A survey of the work done in these and related areas is presented in this section. 
+This article  presents (a) a holistic optimization framework for making buildings smarter (b) seamless deployment of hard and soft sensors and  
+(c) utilizing a minimum number of sensors and deploying them at the right places in a building.
+A survey of the work done in these and related areas is presented in this section. 
 
 Integration of Internet of Things (IoT) with buildings has led to buildings becoming smarter. 
 One of the challenges in smart buildings is the storage and analysis of real-time sensor data \citep{zanella, building_smart}.  
@@ -99,16 +109,16 @@ One of the challenges in smart buildings is the storage and analysis of real-tim
 
 Buildings play an important role in efficient functioning of electric grids. 
 It is important for building to not impose higher loads on the electric grids, since they have other factors that bring in uncertainties like renewable energy sources, dispatchable resources and storage devices \citep{tf_pricing}.
-Supplying electricity to remote areas requires optimal sizing of hybrid renewable energy systems (HRES) such that load requirements are satisfied with the high reliability and low cost \citep{tf_renewable}. 
+Supplying electricity to remote areas requires optimal sizing of hybrid renewable energy systems (HRES) such that load requirements are satisfied with high reliability and low cost \citep{tf_renewable}. 
 To minimize the total energy and operating cost of the microgrid, an efficient algorithm based on particle swarm optimization is proposed by \cite{tf_swarm}.  
 
 
 There exist multiple works that discuss inferring a factor from other sets of factors \citep{anshuleEnergy16, balaji}.   
 Using virtual sensors to abstract hard sensors for programmatically specifying high-level requirements has been described by \cite{virtual_senors}.   
 Using Wi-Fi signals to infer the occupancy status and information has been demonstrated by \cite{occupancy_wifi, softgreen}.
-Occupancy prediction using CO2 based physical and statistical modeling has been investigated by \cite{elsevier_co2}. 
+Occupancy prediction using $CO_2$ based physical and statistical modeling has been investigated by \cite{elsevier_co2}. 
 \cite{elsevier_occ_realtime}  proposed an adaptive probabilistic occupancy prediction model.
-\cite{brown_fan}  discussed a low cost and non-intrusive method for sensor network deployment to combines information such as sound level, case temperature, CO2 and motion.
+\cite{brown_fan}  discussed a low cost and non-intrusive method for sensor network deployment to combine information such as sound level, appliance case temperature, $CO_2$ and motion.
 Using inference models like support vector regression and ensemble models to manage building power is discussed by \cite{tcps_bellala}.  
 A network of sensors and cloud infrastructure can be used to monitor different behaviour inside homes as discussed by \cite{sensors_cloud_behaviour}. 
 The work uses different soft sensing approaches to infer different behavioural patterns.
@@ -123,10 +133,10 @@ But these soft sensing approaches are not holistic since they aim to sense only 
 To understand the behaviour of the buildings, the factors such as energy  consumption, occupancy, appliance information and air quality are sensed individually in the existing literature.
 % Inferring occupancy from power consumption has been discussed by \cite{brown_fan}.
 % A framework called as Quiver has been proposed by \cite{koh2016quiver} for actuating HVAC systems to enable perturbations of the control system safely.  
-The optimization framework proposed in this article emphasizes that factors should be monitored in conjunction with each other to reduce the number of sensors to be deployed and obtain a better view about the building functioning.
+The optimization framework proposed in this article emphasizes that factors should be monitored in conjunction with each other to reduce the number of sensors to be deployed and obtain a better perspective about the building functioning.
 % But in this article, we justify and show that all of the different facets should be monitored, as per the node requirement, in conjunction with each other to get a better knowledge of the building, while reducing the number of sensors required. 
 
-\cite{chang} proposes a solution to  achieving observability by optimally deploying sensors in nodes by formulating it as an optimization problem.
+\cite{chang} proposes a solution for achieving observability by optimally deploying sensors in nodes by formulating it as an optimization problem.
 %Meyn et. al. \cite{meyn} have proposed a greedy approach to solve this problem.
 Even though it reduces the number of sensors to be allocated, it does not present a holistic approach for sensing multiple factors at different granules of a building, unlike the optimization framework proposed in this article.
 % they focus observability of facets at a particular granule, thus limiting the benefits accrued from observability.   Our approach, on the other hand, is aimed to sense multiple facets at all the granules of the building.
@@ -164,7 +174,7 @@ Therefore, the optimization framework proposed in this article can be added as a
 
 
 
-The problem of sensing building factors with reduced sensors is similar to observing the electric grid using least number of Phasor Measurement Unit (PMU) sensors.
+The problem of sensing building factors with reduced sensors is similar to observing the electric grid using minimum number of Phasor Measurement Unit (PMU) sensors.
 % optimal Phasor Measurement Units (PMU) in the electric grid is similar to the problem of optimal sensing of facets in the building.
 % is akin to the problem of optimal Phasor Measurement Units (PMU) in the electric grid.  
 PMUs sensors help to estimate the state of electric grid by measuring line parameters like voltage and current phasors \citep{pmu}, which leads to observability of the grid.  
@@ -290,14 +300,14 @@ In this article, a new optimization framework has been developed for optimal sen
 
 
 A block diagram to summarize the proposed optimization framework has been demonstrated in Figure \ref{f:block}.
-The various inputs and symbols used in the framework are described in Table \ref{tab:var}.
+Details of the various inputs and symbols given to the framework and the output produced by it are described in Table \ref{tab:var}.
 
 \begin{table}[h]
 \caption{Description of different symbols used in the optimization framework}
 	\centering
 	\begin{tabular}{p{0.15\textwidth}  p{0.8\textwidth}}
 		\toprule
-		\textbf{Input Variables} & \textbf{Description}
+		\textbf{Input} & \textbf{Description}
 		\\ \midrule
 		$\{L\}$                           & set of locations where factors are required to be sensed like rooms, levels and wings of the building
 		\\ \hline
@@ -305,19 +315,21 @@ The various inputs and symbols used in the framework are described in Table \ref
     \\ \hline
     $\{s^k\}$ & set of hard sensors to sense factors, where $s_i^k$ denotes sensor $s_i$ that senses factor k. For example, passive infrared sensors (PIR) and camera are used to sense occupancy
     \\ \hline
-    $limit[s_i^k]$ & vector that denotes the limit on the number of sensors of type $s_i^k$ that can be deployed for sensing factor k. For example, \textit{limit(smartmeter) = 2} implies that a maximum of 2 smartmeters can be deployed to sense power
+    $limit(s_i^k)$ & denotes the limit on the number of sensors of type $s_i^k$ that can be deployed for sensing factor k. For example, \textit{limit(smartmeter) = 2} implies that a maximum of 2 smartmeters can be deployed to sense power
     \\ \hline
-    $tosense[l,k]$ & a binary matrix, where 
+    $tosense(l,k)$ & outputs a value 
+    % a binary matrix, where 
     %  which denote whether factor k should be sensed at location l. The 
-     a value of an element $e_{lk}$ is 1 if factor k should be sensed at location l; 0 otherwise
+    %  a value of an element $e_{lk}$ is
+    1 if factor k should be sensed at location $l$; 0 otherwise
       % For example, tosense(HVAC,θ)=0 implies that occupancy should not be sensed in location HVAC room
     \\ \midrule
-    \textbf{Output Variables} & \textbf{Description} 
+    \textbf{Output} & \textbf{Description} 
     \\ \midrule
-    $used(l,k,s_i^k)$  &  value of element is $1$ if sensor $s_i^k$ is allocated in location $l$ to sense factor $k$; $0$ otherwise 
+    $used(l,k,s_i^k)$  &  outputs a value $1$ if sensor $s_i^k$ is allocated in location $l$ to sense factor $k$; $0$ otherwise 
     % number of  sensors of type $s_i^k$ allocated in location $l$  to sense factor $k$ 
     \\ \hline
-    $sensed(l,k)$    & value of element is $1$ if factor $k$ is sensed in location $l$; $0$ otherwise
+    $sensed(l,k)$    & outputs a value $1$ if factor $k$ is sensed in location $l$; $0$ otherwise
     % count of sensors that can sense facet $f$ on node $n$           
     \\ \bottomrule
 	\end{tabular}
@@ -326,7 +338,9 @@ The various inputs and symbols used in the framework are described in Table \ref
 
 \subsection{Application Area}
 
-For the application of optimization framework, a set of rooms of KReSIT building of the Computer Science and Engineering Department, IIT Mumbai (India) was selected. The building consists of one HVAC room and two levels. Each level consists of one small and one big room as shown in Figure \ref{f:app_topology}. Each big room was divided into two zones to sense different factors. A separate location for the HVAC room is denoted since it provides common cooling to all the rooms of the building and consumes a very high amount of energy. 
+For the application of optimization framework, a classroom building, in  
+%  set of classrooms of KReSIT building of 
+ the Computer Science and Engineering Department, IIT Mumbai (India) was selected. The building consists of one HVAC room and two levels. Each level consists of one small and one big room as shown in Figure \ref{f:app_topology}. Each big room was divided into two zones to sense different factors. A separate location for the HVAC room is denoted since it provides common cooling to all the rooms of the building and consumes a very high amount of energy. 
 
 
 \begin{figure}[h]
@@ -352,7 +366,10 @@ Equation \eqref{e:obj} is used to specify the aim of deploying minimum number of
 
 \subsubsection{Constriant Functions}
 
-\noindent $\diamond$ Sensing Requirement: this constraint is specified by Equation \eqref{e:sense_req} and ensures that the final optimal sensor allocation satisfies the sensing requirement required for the smart building.
+\noindent $\diamond$ Sensing Requirement: 
+It denotes the set of factors that should be sensed in different locations of the smart building. This requirement is specified by \textit{tosense(l,k)} matrix.
+The constraint specified by Equation \eqref{e:sense_req} ensures that the set of factors sensed (denoted by  \textit{sensed matrix}) due to the final optimal sensor allocation is in agreement with the sensing requirements of the smart building.
+%  equal satisfies the sensing requirement required for the smart building.
 \begin{equation}
   \label{e:sense_req}
   \forall l \in \{L\} \;\; \forall k \in \{K\} \quad sensed(l,k) = tosense(l,k)
@@ -361,11 +378,14 @@ Equation \eqref{e:obj} is used to specify the aim of deploying minimum number of
 
 
 \noindent $\diamond$ Sensing Rules: A hard sensor denotes a physical sensor like smartmeter and temperature sensor. 
-A soft sensor is defined as a model that infers a factor from the set of other available factors. An example of a soft sensor is inferring occupancy from available Wi-Fi signals \citep{occupancy_wifi}.  
+A soft sensor is defined as a model that infers a factor from the set of other available factors. An example of a soft sensor is inferring power consumption from temperature and time of the day \citep{anshuleEnergy16}.  
+%  occupancy from available Wi-Fi signals \citep{occupancy_wifi}.  
 Soft sensors can be used to reduce the number of hard sensors given the type of information available in a location.  
-The following set of rules determine the sensing a factor $k$ at a location $l$ for a given allocation of sensor: % , the following sensing rules apply.
+The following set of rules specify if the factors are sensable  
+%  the sensing a factor $k$ at a location $l$ 
+ for a given allocation of sensors: % , the following sensing rules apply.
 
-  \noindent Rule 1: If a hard sensor $s_i^k$ is allocated in location $l$, then the factor $k$ is sensible in location $l$. 
+  \noindent Rule 1: If a hard sensor $s_i^k$ is allocated in location $l$, then the factor $k$ is sensable in location $l$. 
   This rule is denoted by Equation \eqref{e:1rule}.
 \begin{equation}
   \label{e:1rule}
@@ -373,7 +393,7 @@ The following set of rules determine the sensing a factor $k$ at a location $l$ 
   \sum_{s \in \{s^k\}}  used(l,k,s)  
   \end{equation}
 
-  \noindent Rule 2: If a soft sensor, that infers factor $k$ from others factors $\{k_i\}$, is allocated in location $l$ and factors $\{k_i\}$ are sensible in location $l$, then the factor $k$ is sensible in location $l$.
+  \noindent Rule 2: If a soft sensor, that infers factor $k$ from others factors $\{k_i\}$, is allocated in location $l$ and factors $\{k_i\}$ are sensable in location $l$, then the factor $k$ is sensable in location $l$.
   This rule is denoted by Equation \eqref{e:2rule}.
 \begin{equation}
   \label{e:2rule}
@@ -390,9 +410,10 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
   \right)
   \end{equation}
 
-  \noindent $\diamond$ Sensing from sub-locations: A location may be composed of sub-locations or relatively small locations (Figure \ref{f:app_topology}). Let the sub-locations of a location l be represented by $\{subl^l\}$. Thus, this constraint states that if a factor k that is sensible in all the sub-locations of a location l, then the factor k is also sensable at location l. For example, consider a room that consists of two zones. 
+  \noindent $\diamond$ Sensing from sub-locations: A location may be composed of sub-locations or relatively small locations (Figure \ref{f:app_topology}). Let the set of sub-locations of a location $l$ be represented by $\{subl^l\}$. This constraint states that if a factor k that is sensable in all the sub-locations of a location $l$, then the factor k is also sensable at location $l$. For example, consider a room that consists of two zones. 
+  If the power consumption of these zones is sensed, then aggregating these values will produce the total power of the room.
   % To sense the temperature of a room,
-  The temperature values of the room's sub-locations (zones) are aggregated using a function like average to represent the temperature of the room.
+  % The temperature values of the room's sub-locations (zones) are aggregated using a function like average to represent the temperature of the room.
   This constraint is represented by Equation \eqref{e:sub_loc} as follows:
 \begin{equation}
     \label{e:sub_loc}
@@ -402,8 +423,9 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
   \right)
   \end{equation}
 
-  \noindent $\diamond$ Limiting the sensors: if $limit(s_i^k)$, which represents the maximum number of sensor $s_i$ sensing factor k that can be deployed, is provided as input, then this constraint ensures that the total number of sensors of the type $s_i^k$ deployed in the optimal sensor allocation does not exceed the provided limit.
-  It is denoted by Equation \eqref{e:limit}.
+  \noindent $\diamond$ Limiting the sensors: $limit(s_i^k)$ represents the maximum number of sensors of type $s_i$ sensing factor k that can be deployed in the building.
+  The constraint denoted by Equation \eqref{e:limit} ensures that the total number of sensors $s_i^k$ deployed in the optimal sensor allocation does not exceed the provided limit.
+  % It is denoted by Equation \eqref{e:limit}.
 \begin{equation}
   \label{e:limit}
     \forall k \in \{K\} \;\; \forall s \in \{s^k\} \quad \left(
@@ -414,7 +436,9 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
 
 \section{Results And Discussion}
 
-A smart building provides thermal comfort at optimum power consumption based on the occupancy using minimum number of sensors. It can be achieved by occupant detection and appliance automation. To fulfill these tasks, four primary factors need to be sensed: power consumption, number and type of ON appliances, occupancy and temperature of the rooms.
+A smart building provides thermal comfort at optimum power consumption based on the occupancy in different building locations using minimum number of sensors. 
+It can be achieved by detecting occupancy, monitoring power and temperature, and accordingly automating the appliances.
+To fulfill these tasks, four primary factors need to be sensed: power consumption, number and type of ON appliances, occupancy and temperature of the rooms.
 
 \subsection{Inputs used for optimal sensor allocation}
 
@@ -425,9 +449,9 @@ A smart building provides thermal comfort at optimum power consumption based on 
 \begin{table}[h]
 \caption{List of sensors for sensing different factors}
 	\centering
-  \begin{tabular}{p{0.19\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}}
+  \begin{tabular}{p{0.15\textwidth}|p{0.14\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}}
     \toprule
-    \textbf{Factors} & \textbf{Power} &  \textbf{Number of ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}  
+    \textbf{Sensor Type} & \textbf{Power Consumption} &  \textbf{Number and Type of ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}  
     % \backslashbox{\textbf{Sensor Type}}{\textbf{Factors}} & \textbf{Power} &  \textbf{Number of ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}  
     \\ \midrule
     Hard Sensor	& Smartmeter &	Smart Switch &	PIR (passive infrared), Camera &	Temperature sensor
@@ -438,19 +462,19 @@ A smart building provides thermal comfort at optimum power consumption based on 
   \label{t:sensors}
   \end{table}
 
-\item Sensing Requirement: All the factors in all the locations, except HVAC room $(L^{H})$, should be sensed. 
+\item Sensing Requirement: All the factors in all the locations, except HVAC room $({H})$, should be sensed. 
 This requirement is specified using Equation \eqref{e:req1} as follows:
 \begin{equation}
   \label{e:req1}
-  \forall l \in \{L \setminus L^{H} \} \;\; \forall k \in \{K\} \quad tosense(l,k) = 1
+  \forall l \in \{L \setminus {H} \} \;\; \forall k \in \{K\} \quad tosense(l,k) = 1
 \end{equation}
 
-For location HVAC room $L^{H}$, only power consumption should be sensed since the room is never occupied, and sensing other factors is not meaningful.
+In HVAC room ${H}$, only power consumption should be sensed since the room is never occupied, and sensing other factors is not meaningful.
 It is specified by Equation \eqref{e:req2} as follows:
 \begin{equation}
   \label{e:req2}
   \begin{split}
-    tosense(L^{H}, power) = 1 , \\
+    tosense({H}, power) = 1 , \\
     \forall k \in \{K \setminus power \} \quad tosense(L^{H},k) = 0
   \end{split}
 \end{equation}
@@ -461,7 +485,10 @@ It is specified by Equation \eqref{e:req2} as follows:
 
 \subsection{Output}
 
-The optimization framework has been implemented in python library PuLP \citep{pulp} which is used for solving linear programs. When the various inputs (as discussed in the previous section) are given to the optimization framework, it implements the objective function Eq. (1) and constraint functions (Eq. (2) – (5)) to output the optimal sensor allocation for the application area, whose details are summarized in Table \ref{t:sensed_matrix} and Table \ref{t:used_matrix}.
+The optimization framework has been implemented in python library PuLP \citep{pulp} which is used for solving linear programs.
+After the inputs are provided  
+%  When the various inputs (as discussed in the previous section) are given 
+ to the optimization framework, it implements the objective function Equation \eqref{e:obj} and constraint functions (Equation \eqref{e:sense_req}  – \eqref{e:limit}) to output the optimal sensor allocation for the application area, whose details are summarized in Table \ref{t:sensed_matrix} and Table \ref{t:used_matrix}.
 
 \begin{table}
   \centering
@@ -523,13 +550,16 @@ The optimization framework has been implemented in python library PuLP \citep{pu
 \end{table}
 
 
-Observing the \textit{sensed} matrix (Table \ref{t:sensed_matrix}), it can be concluded that the sensing requirement of sensing all the factors in all the locations, except HVAC room where only power consumption should be sensed, is satisfied by the optimization framework. The details of optimal sensor allocation for satisfying the sensing requirements is denoted by \textit{used} matrix (Table \ref{t:used_matrix}) and are explained as follows. 
+Observing the \textit{sensed} matrix (Table \ref{t:sensed_matrix}), it can be concluded that the sensing requirement of sensing all the factors in all the locations, except HVAC room,
+%  where only power consumption should be sensed, 
+ is satisfied by the optimization framework.
+ In HVAC room, only power consumption is observed.  The details of optimal sensor allocation for satisfying the sensing requirements is denoted by \textit{used} matrix (Table \ref{t:used_matrix}) and are explained as follows. 
 
 \begin{itemize}
-  \item Since no soft sensor is available to sense temperature (Table \ref{t:sensors}), two hard sensors are used to sense the temperature in two small rooms (one for each room) and four sensors for big rooms (one for each zone). In big rooms, the temperature is sensable since temperature of the zones is sensed (Constraint C, Eq. (4)). Similarly, the temperature of levels and the building become sensable. Thus, a total of six temperature sensors are deployed.
-  \item Occupancy is sensed either by placing Passive infrared (PIR) sensor or a camera in two small rooms (one for each room) and two big rooms (one for each zone). No soft sensor is used since occupancy cannot be inferred from the other factors in these locations. Using Constraint C Eq. (4), occupancy of big rooms, levels and the building becomes sensable. Therefore, a total of six PIR + camera sensors are deployed.
-  \item Information of ON appliances can be inferred from occupancy and temperature using a soft sensor (Table \ref{t:sensors}). Since all the locations already sense temperature and occupancy, the number and type of ON appliances is sensed using the soft sensor (Constraint B, Eq. (3)). Therefore, no hard sensor is deployed to sense this factor.
-  \item In the HVAC room, only one smartmeter is placed to sense power consumption since no other factor is sensed at this location. In all the remaining locations, power consumption is inferred from number and type of ON appliances information using a soft sensor (Constraint B, Eq. (3)).
+  \item Since no soft sensor is available to sense temperature (Table \ref{t:sensors}), two hard sensors are used to sense the temperature in two small rooms (one for each room) and four sensors for big rooms (one for each zone). In big rooms, the temperature is sensable since temperature of the zones is sensed (Equation \eqref{e:sub_loc}). Similarly, the temperature of levels and the building becomes sensable. Thus, a total of six temperature sensors are deployed.
+  \item Occupancy is sensed either by placing a Passive infrared (PIR) sensor or a camera in two small rooms (one for each room) and two big rooms (one for each zone). No soft sensor is used since occupancy cannot be inferred from the other factors in these locations. Using Equation \eqref{e:sub_loc}, occupancy of big rooms, levels and the building becomes sensable. Therefore, a total of six PIR + camera sensors are deployed.
+  \item Information of ON appliances can be inferred from occupancy and temperature using a soft sensor (Table \ref{t:sensors}). Since all the locations already sense temperature and occupancy, the number and type of ON appliances is sensed using the soft sensor (Equation \eqref{e:rules}). Therefore, no hard sensor is deployed to sense this factor.
+  \item In the HVAC room, only one smartmeter is allocated to sense power consumption since no other factor is sensed at this location. In all the remaining locations, power consumption is inferred from number and type of ON appliances information using a soft sensor (Equation \eqref{e:rules}).
 \end{itemize}
 
 Therefore, to sense the factors in all the locations of the building, only 13 sensors are required as tabulated in Table \ref{t:sensor_allo_opti}.
@@ -556,7 +586,7 @@ Therefore, to sense the factors in all the locations of the building, only 13 se
 \end{table}
 
 
-However, the effectiveness of the proposed optimization framework is compared with baseline approach method for sensor deployment at the same application area. The baseline approach consists of deploying appropriate sensors for all the factors in all the locations where they should be sensed. For example, to sense power, ON appliances, occupancy, and temperature at all the location of the building (Figure \ref{f:app_topology}), four sensors (one for each factor) is deployed in all the locations, leading to the deployment of 48 sensors as shown in Table \ref{t:sensor_allo_baseline}.
+However, the effectiveness of the proposed optimization framework is compared with baseline approach for sensor deployment at the same application area. The baseline approach consists of deploying appropriate sensors for all the factors in all the locations where they should be sensed. For example, to sense power, ON appliances, occupancy, and temperature at all the location of the building (Figure \ref{f:app_topology}), four sensors (one for each factor) is deployed in all the locations, leading to the deployment of 48 sensors as shown in Table \ref{t:sensor_allo_baseline}.
 
 
 \begin{table}[h]
@@ -600,17 +630,18 @@ However, the effectiveness of the proposed optimization framework is compared wi
 
 
 
-Therefore, it can be concluded that the newly developed optimization framework is a highly effective technique as compared to the baseline method. Because to sense the same amount of data, the baseline method needs 48 sensors while the newly developed optimization framework requires only 13 sensors, which is about 72.9\% savings in the number of sensors to be deployed. 
+Therefore, it can be concluded that the newly developed optimization framework is  highly effective as compared to the baseline approach. This is because, to satisfy the same sensing requirements, the baseline approach needs 48 sensors while the newly developed optimization framework requires only 13 sensors, which is about 72.9\% savings in the number of sensors to be deployed. 
 
-This impressive reduction demonstrates how practical the proposed technique is and should be used as a primary tool for sensing factors when developing smart cities and buildings. For example, if this methodology is used for a smart city consisting of one thousand smart buildings of the same size and design (as described in the application area), it will require only thirteen thousand sensors while the baseline approach will require forty-eight thousand sensors, resulting into a net saving of thirty-five thousand sensors.
-
+This impressive reduction demonstrates how practical the proposed technique is and should be used as a primary tool for sensing factors when developing smart cities and buildings. For example, if this methodology is used for a smart city consisting of one thousand smart buildings of the same size and design (as described in the application area), it will require only thirteen thousand sensors while the baseline approach will require forty-eight thousand sensors, resulting into a net savings of thirty-five thousand sensors.   
 However, in the semi-smart buildings, sometimes it is required to sense only one or two parameters. For example, it may be required to sense only the number of ON appliances at any one time or total power consumption of the building. Under all such scenarios, Table \ref{t:comparison} summarizes that the developed optimization framework is very effective as compared to the baseline approach.
 
-It is depicted from Table \ref{t:comparison} that for sensing the number of ON appliances only twelve sensors are required by using the baseline approach. However, only seven sensors are required using the newly developed optimization framework. Similarly, to measure the power consumption, twelve and seven smartmeters are required using the baseline approach and developed optimization framework, respectively. Therefore, the newly developed optimization framework is an effective tool to reduce the number of sensors required to make buildings smarter.
+It is depicted from Table \ref{t:comparison} that for sensing the number of ON appliances, twelve smart switch sensors are required by using the baseline approach. However,  using the newly developed optimization framework, only seven smart switch sensors are required. If the information about temperature and occupancy is available, then the optimization framework allocates only one smart switch sensor.  
+Similarly to measure the power consumption, twelve and seven smartmeters are required using the baseline approach and optimization framework, respectively. In presence of temperature and occupancy information, the optimization framework does not deploy any smart switch sensors.
+Therefore, the newly developed optimization framework is an effective tool to reduce the number of sensors required to make buildings smarter.
 
 \section{Conclusion}
 
-Various factors such as power consumption, ON appliances, occupancy and temperature can be sensed using a minimum number of sensors.  This can be achieved by using the newly developed optimization framework which is an effective tool to reduce the number of sensors required to sense various factors in a smart building. This optimization framework has been compared with the baseline approach and results are found to be very encouraging. When this technique is applied to an existing building, it requires 72.92\% less sensors as compared to the baseline approach. This feature makes it an impressive proposition and leads to a large reduction in e-waste generation. Therefore, it can be concluded that if the existing information is used intelligently, it will lead to a reduction in sensors. 
+Various factors such as power consumption, number and type of ON appliances, occupancy and temperature can be sensed using a minimum number of sensors.  This can be achieved by using the newly developed optimization framework which is an effective tool to reduce the number of sensors required to sense various factors in a smart building. This optimization framework has been compared with the baseline approach and results are found to be very encouraging. When this technique is applied to an existing building, it requires 72.92\% less sensors as compared to the baseline approach. This feature makes it an impressive proposition and leads to a large reduction in e-waste generation. Therefore, it can be concluded that if the existing information is used intelligently, it will lead to a reduction in sensors. 
 
 
 % \begin{figure}
