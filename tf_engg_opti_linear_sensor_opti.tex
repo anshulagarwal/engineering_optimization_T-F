@@ -37,7 +37,7 @@
 
 \articletype{ARTICLE TEMPLATE}
 
-\title{A Novel Optimization Framework For Optimal Sensor Deployment In Smart Buildings }
+\title{A novel optimization framework for optimal sensor deployment in smart buildings }
 
 \author{
 \name{Anshul Agarwal \textsuperscript{a}\thanks{CONTACT Anshul Agarwal Email: anshula@iitb.ac.in , a.anshul215@gmail.com } and Krithi Ramamritham\textsuperscript{a}}
@@ -286,12 +286,6 @@ As discussed earlier, observability can help in estimating the minimum energy co
 
 
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{{"images/linear sensor opti flow chart diagram"}.pdf}
-  \caption{Block diagram summarizing the proposed approach}
-  \label{f:block}
-\end{figure}
 
 
 \section{Methodology}
@@ -299,16 +293,23 @@ As discussed earlier, observability can help in estimating the minimum energy co
 In this article, a new optimization framework has been developed for optimal sensor deployment. This optimization framework outputs the optimal number, type, and location of sensors such that required factors are sensed in the smart buildings. 
 
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{{"images/linear sensor opti flow chart diagram"}.pdf}
+  \caption{Block diagram summarizing the proposed approach}
+  \label{f:block}
+\end{figure}
+
 A block diagram to summarize the proposed optimization framework has been demonstrated in Figure \ref{f:block}.
 Details of the various inputs and symbols given to the framework and the output produced by it are described in Table \ref{tab:var}.
 
 \begin{table}[h]
 \caption{Description of different symbols used in the optimization framework}
 	\centering
-	\begin{tabular}{p{0.15\textwidth}  p{0.8\textwidth}}
-		\toprule
+	\begin{tabular}{p{0.15\textwidth}|p{0.78\textwidth}}
+		\hline
 		\textbf{Input} & \textbf{Description}
-		\\ \midrule
+		\\ \hline
 		$\{L\}$                           & set of locations where factors are required to be sensed like rooms, levels and wings of the building
 		\\ \hline
 		$ \{K\} $                         & set of factors to be sensed in the building like occupancy and temperature
@@ -323,15 +324,15 @@ Details of the various inputs and symbols given to the framework and the output 
     %  a value of an element $e_{lk}$ is
     1 if factor k should be sensed at location $l$; 0 otherwise
       % For example, tosense(HVAC,θ)=0 implies that occupancy should not be sensed in location HVAC room
-    \\ \midrule
+    \\ \hline
     \textbf{Output} & \textbf{Description} 
-    \\ \midrule
+    \\ \hline
     $used(l,k,s_i^k)$  &  outputs a value $1$ if sensor $s_i^k$ is allocated in location $l$ to sense factor $k$; $0$ otherwise 
     % number of  sensors of type $s_i^k$ allocated in location $l$  to sense factor $k$ 
     \\ \hline
     $sensed(l,k)$    & outputs a value $1$ if factor $k$ is sensed in location $l$; $0$ otherwise
     % count of sensors that can sense facet $f$ on node $n$           
-    \\ \bottomrule
+    \\ \hline
 	\end{tabular}
 	\label{tab:var}
 \end{table}
@@ -346,7 +347,7 @@ For the application of optimization framework, a classroom building, in
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{{"images/application area topology"}.pdf}
-  \caption{Representation of the application area building}
+  \caption{Hierarchical representation of the application area building}
   \label{f:app_topology}
 \end{figure}
 
@@ -434,7 +435,7 @@ Combining Equations \eqref{e:1rule} and \eqref{e:2rule}, the constraint specifyi
    \end{equation}
 
 
-\section{Results And Discussion}
+\section{Results and Discussion}
 
 A smart building provides thermal comfort at optimum power consumption based on the occupancy in different building locations using minimum number of sensors. 
 It can be achieved by detecting occupancy, monitoring power and temperature, and accordingly automating the appliances.
@@ -450,14 +451,14 @@ To fulfill these tasks, four primary factors need to be sensed: power consumptio
 \caption{List of sensors for sensing different factors}
 	\centering
   \begin{tabular}{p{0.15\textwidth}|p{0.14\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}|p{0.19\textwidth}}
-    \toprule
+    \hline
     \textbf{Sensor Type} & \textbf{Power Consumption} &  \textbf{Number and Type of ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}  
     % \backslashbox{\textbf{Sensor Type}}{\textbf{Factors}} & \textbf{Power} &  \textbf{Number of ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}  
-    \\ \midrule
+    \\ \hline
     Hard Sensor	& Smartmeter &	Smart Switch &	PIR (passive infrared), Camera &	Temperature sensor
     \\ \hline
     Soft Sensor (infer from factors) &	Number of ON appliances &	Occupancy and Temperature &	- &	-
-\\ \bottomrule
+\\ \hline
   \end{tabular}
   \label{t:sensors}
   \end{table}
@@ -490,13 +491,13 @@ After the inputs are provided
 %  When the various inputs (as discussed in the previous section) are given 
  to the optimization framework, it implements the objective function Equation \eqref{e:obj} and constraint functions (Equation \eqref{e:sense_req}  – \eqref{e:limit}) to output the optimal sensor allocation for the application area, whose details are summarized in Table \ref{t:sensed_matrix} and Table \ref{t:used_matrix}.
 
-\begin{table}
+\begin{table}[h]
   \centering
   \caption{\textit{sensed} matrix denoting the factors that are sensable in different locations}
-  \begin{tabular}{P{0.23\textwidth} P{0.09\textwidth} P{0.22\textwidth} P{0.14\textwidth} P{0.17\textwidth}}
-    \toprule
+  \begin{tabular}{P{0.23\textwidth}|P{0.09\textwidth}|P{0.22\textwidth}|P{0.14\textwidth}|P{0.17\textwidth}}
+    \hline
     \textbf{Locations} &  \textbf{Power} &  \textbf{ON Appliances} &  \textbf{Occupancy} &  \textbf{Temperature}   
-    \\ \midrule
+    \\ \hline
     Building $B$	&	1	&	1	&	1	&	1	\\ \hline
     Level $L_1$	&	1	&	1	&	1	&	1	\\ \hline
     Level $L_2$	&	1	&	1	&	1	&	1	\\ \hline
@@ -509,29 +510,29 @@ After the inputs are provided
     Big Room $BR_2$	&	1	&	1	&	1	&	1	\\ \hline
     Zone $Z_{21}$	&	1	&	1	&	1	&	1	\\ \hline
     Zone $Z_{22}$	&	1	&	1	&	1	&	1	
-\\ \bottomrule
+\\ \hline
     \end{tabular}
   \label{t:sensed_matrix}
 \end{table}
 
-\begin{table}
+\begin{table}[h]
   \centering
   \caption{\textit{used} matrix denoting the details of sensor allocation}
   \begin{tabular}{P{0.16\textwidth}|P{0.15\textwidth}|P{0.19\textwidth}|P{0.06\textwidth}|P{0.1\textwidth}|P{0.17\textwidth}}
-    \toprule
+    \hline
     \multirow{2}{*}{\textbf{Locations}} &
     \textbf{Power} & 
     \textbf{ON Appliances} & 
     \multicolumn{2}{c|}{\textbf{Occupancy}} &
     \textbf{Temperature} 
-    \\ \cmidrule{2-6} 
+    \\ \cline{2-6} 
     &
     \textbf{Smartmeter} &
     \textbf{Smart Switch} &
     \textbf{PIR} &
     \textbf{Camera} &
     \textbf{Temperature Sensor} 
-    \\ \midrule
+    \\ \hline
     Building $B$	&	0	&	0	&	0	&	0	&	0	\\ \hline
     Level $L_1$	&	0	&	0	&	0	&	0	&	0	\\ \hline
     Level $L_2$	&	0	&	0	&	0	&	0	&	0	\\ \hline
@@ -544,7 +545,7 @@ After the inputs are provided
     Big Room $BR_2$	&	0	&	0	&	0	&	0	&	0	\\ \hline
     Zone $Z_{21}$	&	0	&	0	&	1	&	0	&	1	\\ \hline
     Zone $Z_{22}$	&	0	&	0	&	1	&	0	&	1	
-    \\ \bottomrule
+    \\ \hline
   \end{tabular}
   \label{t:used_matrix}
 \end{table}
@@ -567,10 +568,10 @@ Therefore, to sense the factors in all the locations of the building, only 13 se
 \begin{table}[h]
   \centering
   \caption{Sensor allocation for sensing the factors using the optimization framework}
-  \begin{tabular}{|p{0.24\textwidth}|P{0.36\textwidth}|P{0.25\textwidth}|}
-    \toprule 
+  \begin{tabular}{p{0.24\textwidth}|P{0.36\textwidth}|P{0.25\textwidth}}
+    \hline
   \textbf{Type of Hard Sensor} & \textbf{Location} & \textbf{Number of Sensors Allocated}
-  \\ \midrule
+  \\ \hline
   Temperature Sensor & $SR_1, Z_{11}, Z_{12}, SR_2, Z_{21}, Z_{22}$ & $6$
   \\ \hline
   PIR or Camera      & $SR_1, Z_{11}, Z_{12}, SR_2, Z_{21}, Z_{22}$ & $6$
@@ -579,7 +580,7 @@ Therefore, to sense the factors in all the locations of the building, only 13 se
    \\ \hline
    Smartmeter & HVAC Room ($H$) &  $1$
    \\ \hline
-   \multicolumn{2}{|l|}{\textbf{Total}} & \textbf{13}
+   \multicolumn{2}{l|}{\textbf{Total}} & \textbf{13}
    \\ \hline 
   \end{tabular}
   \label{t:sensor_allo_opti}
@@ -592,10 +593,10 @@ However, the effectiveness of the proposed optimization framework is compared wi
 \begin{table}[h]
   \centering
   \caption{Sensor allocation for sensing the factors using the baseline approach}
-  \begin{tabular}{|p{0.24\textwidth}|P{0.36\textwidth}|P{0.25\textwidth}|}
-    \toprule 
+  \begin{tabular}{p{0.24\textwidth}|P{0.36\textwidth}|P{0.25\textwidth}}
+    \hline
   \textbf{Type of Hard Sensor} & \textbf{Location} & \textbf{Number of Sensors Allocated}
-  \\ \midrule
+  \\ \hline
   Temperature Sensor & $B,  L_1,  SR_1,  BR_1,  Z_{11},  Z_{12},$  $L_2,  SR_2,  BR_2,  Z_{21},  Z_{22},  H$ & $12$
   \\ \hline
   PIR or Camera  & $B,  L_1,  SR_1,  BR_1,  Z_{11},  Z_{12},$  $L_2,  SR_2,  BR_2,  Z_{21},  Z_{22},  H$ & $12$
@@ -604,7 +605,7 @@ However, the effectiveness of the proposed optimization framework is compared wi
    \\ \hline
    Smartmeter  & $B,  L_1,  SR_1,  BR_1,  Z_{11},  Z_{12},$  $L_2,  SR_2,  BR_2,  Z_{21},  Z_{22},  H$ & $12$
    \\ \hline
-   \multicolumn{2}{|l|}{\textbf{Total}} & \textbf{48}
+   \multicolumn{2}{l|}{\textbf{Total}} & \textbf{48}
    \\ \hline 
   \end{tabular}
   \label{t:sensor_allo_baseline}
@@ -613,9 +614,9 @@ However, the effectiveness of the proposed optimization framework is compared wi
 \begin{table}[!h]
   \centering
   \caption{Sensor allocation for satisfying different sensing requirements}
-  \begin{tabular}{|P{0.22\textwidth}|P{0.12\textwidth}|P{0.16\textwidth}|P{0.12\textwidth}|P{0.21\textwidth}|}
+  \begin{tabular}{P{0.22\textwidth}|P{0.12\textwidth}|P{0.16\textwidth}|P{0.12\textwidth}|P{0.21\textwidth}}
     \hline
-    \multirow{4}{1\linewidth}{\textbf{Sensing Requirement}} & \multicolumn{2}{c|}{\textbf{Baseline Approach}} &  \multicolumn{2}{c|}{\textbf{Optimization Framework}}
+    \multirow{4}{1\linewidth}{\textbf{Sensing Requirement}} & \multicolumn{2}{c|}{\textbf{Baseline Approach}} &  \multicolumn{2}{c}{\textbf{Optimization Framework}}
     \\ \cline{2-5}
     & \textbf{Number of Sensors} & \textbf{Description} & \textbf{Number of Sensors} & \textbf{Description}
     \\ \hline
@@ -637,12 +638,13 @@ However, in the semi-smart buildings, sometimes it is required to sense only one
 
 It is depicted from Table \ref{t:comparison} that for sensing the number of ON appliances, twelve smart switch sensors are required by using the baseline approach. However,  using the newly developed optimization framework, only seven smart switch sensors are required. If the information about temperature and occupancy is available, then the optimization framework allocates only one smart switch sensor.  
 Similarly to measure the power consumption, twelve and seven smartmeters are required using the baseline approach and optimization framework, respectively. In presence of temperature and occupancy information, the optimization framework does not deploy any smart switch sensors.
-Therefore, the newly developed optimization framework is an effective tool to reduce the number of sensors required to make buildings smarter.
+Therefore, the newly developed optimization framework is an effective tool to reduce the number of sensors required to make buildings smarter.   
 
-\section{Conclusion}
+\section{Conclusion}   
 
-Various factors such as power consumption, number and type of ON appliances, occupancy and temperature can be sensed using a minimum number of sensors.  This can be achieved by using the newly developed optimization framework which is an effective tool to reduce the number of sensors required to sense various factors in a smart building. This optimization framework has been compared with the baseline approach and results are found to be very encouraging. When this technique is applied to an existing building, it requires 72.92\% less sensors as compared to the baseline approach. This feature makes it an impressive proposition and leads to a large reduction in e-waste generation. Therefore, it can be concluded that if the existing information is used intelligently, it will lead to a reduction in sensors. 
-
+Various factors such as power consumption, number and type of ON appliances, occupancy and temperature can be sensed using a minimum number of sensors.  This can be achieved by using the newly developed optimization framework which is an effective tool to reduce the number of sensors required to sense various factors in a smart building. This optimization framework has been compared with the baseline approach and results are found to be very encouraging. When this technique is applied to an existing building, it requires 72.92\% less sensors as compared to the baseline approach. This feature makes it an impressive proposition and leads to a large reduction in e-waste generation.    
+However, if this approach is extended to a smart city, it will not only result in huge savings of sensors, but also lead to huge reduction in e-waste generation.   
+Therefore, it can be concluded that if the existing information is used intelligently, it will lead to a reduction in sensors.    
 
 % \begin{figure}
 % \centering
