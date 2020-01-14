@@ -1,0 +1,5 @@
+table lines consistent
+refs name
+fig 1 placement
+title caps ??
+cite refs from google based on article title

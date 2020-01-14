@@ -1,105 +1,286 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{47}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\normalfont{#1}}
 \providecommand{\urlprefix}{}
 
-\bibitem[Albiston(2005)]{Alb05}
-Albiston, Catherine~R. 2005. ``Bargaining in the Shadow of Social Institutions:
-  Competing Discourses and Social Change in the Workplace Mobilization of Civil
-  Rights.'' \emph{Law and Society Review} 39 (1): 11--47.
+\bibitem[Abur and Magnago(1999)]{abur}
+Abur, A., and F.~H. Magnago. 1999. ``Optimal meter placement for maintaining
+  observability during single branch outages.'' \emph{IEEE Transactions on
+  Power Systems} 14 (4): 1273--1278.
 
-\bibitem[Brooks and McLennan(2002)]{Bro02}
-Brooks, Daniel~R., and Deborah~A. McLennan. 2002. \emph{The Nature of
-  Diversity: An Evolutionary Voyage of Discovery}. Chicago: University of
-  Chicago Press.
+\bibitem[Agarwal et~al.(2016)]{anshul_sensys_demo}
+Agarwal, A., K.~Jaiswal, U.~Gudhaka, V.~Munigala, K.~Ramamritham, and
+  G.~Karmakar. 2016. ``Observability-driven Sensor Deployment in Smart Academic
+  Environments: Demo Abstract.'' In \emph{Proceedings of the 14th {ACM}
+  Conference on Embedded Network Sensor Systems, SenSys 2016, Stanford, CA,
+  USA, November 14-16, 2016}, 328--329.
+  \urlprefix\url{http://doi.acm.org/10.1145/2994551.2996546}.
 
-\bibitem[Brooks and Wiley(1986)]{Bro86}
-Brooks, Daniel~R., and E.~O. Wiley. 1986. \emph{Evolution as Entropy}. 2nd ed.
-  Chicago: University of Chicago Press.
+\bibitem[Agarwal, Munigala, and Ramamritham(2016)]{anshuleEnergy16}
+Agarwal, A., V.~Munigala, and K.~Ramamritham. 2016. ``Observability: replacing
+  sensors with inference engines.'' In \emph{Proceedings of the Seventh
+  International Conference on Future Energy Systems, Waterloo, ON, Canada, June
+  21 - 24, 2016 - Poster Sessions}, 9:1--9:2.
+  \urlprefix\url{http://doi.acm.org/10.1145/2939912.2942356}.
 
-\bibitem[Choi(2008)]{Cho08}
-Choi, Mihwa. 2008. ``Contesting \emph{Imaginaires} in Death Rituals during the
-  Northern {S}ong Dynasty.'' PhD diss., University of Chicago. ProQuest
-  (A\,AT\,3300426).
+\bibitem[Balaji et~al.(2016)]{brick}
+Balaji, B., A.~Bhattacharya, G.~Fierro, J.~Gao, J.~Gluck, D.~Hong, A.~Johansen,
+  et~al. 2016. ``Brick: Towards a Unified Metadata Schema For Buildings.'' In
+  \emph{Proceedings of the 3rd ACM International Conference BuildSys '16}, New
+  York, NY, USA, 41--50. ACM.
+  \urlprefix\url{http://doi.acm.org/10.1145/2993422.2993577}.
 
-\bibitem[Choi and Gulati(2008)]{ChoGul08}
-Choi, Stephen~J., and G.~Mitu Gulati. 2008. ``Bias in Judicial Citations: A
-  Window into the Behavior of Judges?'' \emph{Journal of Legal Studies} 37
-  (January): 87--129.
+\bibitem[Balaji et~al.(2013)]{balaji}
+Balaji, B., J.~Xu, A.~Nwokafor, R.~Gupta, and Y.~Agarwal. 2013. ``Sentinel:
+  Occupancy Based HVAC Actuation Using Existing WiFi Infrastructure Within
+  Commercial Buildings.'' In \emph{Proceedings of the 11th ACM Conference
+  SenSys '13}, New York, NY, USA, 17:1--17:14. ACM.
+  \urlprefix\url{http://doi.acm.org/10.1145/2517351.2517370}.
 
-\bibitem[Ellet(1968)]{Ell68}
-Ellet, Elizabeth F.~L. 1968. ``By Rail and Stage to Galena.'' In \emph{Prairie
-  State: Impressions of {I}llinois, 1673--1967, by Travelers and Other
-  Observers},  edited by Paul~M. Angle, 271--79. Chicago: University of Chicago
-  Press.
+\bibitem[Barker et~al.(2019)]{tcps_virtualpowermeter}
+Barker, S., S.~Kalra, D.~Irwin, and P.~Shenoy. 2019. ``Building Virtual Power
+  Meters for Online Load Tracking.'' \emph{ACM Trans. Cyber-Phys. Syst.} 3 (2):
+  23:1--23:24.  \urlprefix\url{http://doi.acm.org/10.1145/3303860}.
 
-\bibitem[Fogel(2004{\natexlab{a}})]{FogEHPD04}
-Fogel, Robert~William. 2004{\natexlab{a}}. \emph{The Escape from Hunger and
-  Premature Death, 1700--2100: {E}urope, {A}merica, and the {T}hird {W}orld}.
-  New York: Cambridge University Press.
+\bibitem[{Bashir} and {Gill}(2016)]{iot_sb_bigdata}
+{Bashir}, M.~R., and A.~Q. {Gill}. 2016. ``Towards an IoT Big Data Analytics
+  Framework: Smart Buildings Systems.'' In \emph{2016 IEEE 18th International
+  Conference on High Performance Computing and Communications; IEEE 14th
+  International Conference on Smart City; IEEE 2nd International Conference on
+  Data Science and Systems (HPCC/SmartCity/DSS)}, Dec, 1325--1332.
 
-\bibitem[Fogel(2004{\natexlab{b}})]{FogJEE04}
-Fogel, Robert~William. 2004{\natexlab{b}}. ``Technophysio Evolution and the
-  Measurement of Economic Growth.'' \emph{Journal of Evolutionary Economics} 14
-  (2): 217--21.
+\bibitem[Bellala et~al.(2012)]{bellala_electrons}
+Bellala, G., M.~Marwah, M.~Arlitt, G.~Lyon, and C.~Bash. 2012. ``Following the
+  Electrons: Methods for Power Management in Commercial Buildings.'' In
+  \emph{Proceedings of the 18th ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining}, KDD '12, New York, NY, USA, 994--1002.
+  ACM.  \urlprefix\url{http://doi.acm.org/10.1145/2339530.2339685}.
 
-\bibitem[Fowler(1989)]{Fow89}
-Fowler, Melvin~L. 1989. \emph{The {C}ahokia Atlas: A Historical Atlas of
-  {C}ahokia Archaeology}. Studies in Illinois Archaeology~6. Springfield:
-  Illinois Historic Preservation Agency.
+\bibitem[Bellala et~al.(2017)]{tcps_bellala}
+Bellala, G., M.~Marwah, M.~Arlitt, G.~Lyon, C.~Bash, and A.~Shah. 2017. ``Data
+  Analytics for Managing Power in Commercial Buildings.'' \emph{ACM Trans.
+  Cyber-Phys. Syst.} 1 (4): 22:1--22:25.
+  \urlprefix\url{http://doi.acm.org/10.1145/3110219}.
 
-\bibitem[Greenberg(2008)]{Gre08}
-Greenberg, Joel, ed. 2008. \emph{Of Prairie, Woods, and Water: Two Centuries of
-  {C}hicago Nature Writing}. Chicago: University of Chicago Press.
+\bibitem[Chang et~al.(2011)]{chang}
+Chang, X., R.~Tan, G.~Xing, Z.~Yuan, C.~Lu, Y.~Chen, and Y.~Yang. 2011.
+  ``Sensor Placement Algorithms for Fusion-Based Surveillance Networks.''
+  \emph{IEEE Transactions on Parallel and Distributed Systems} 22 (8):
+  1407--1414.
 
-\bibitem[Jacobs, Thomas, and Lang(1997)]{JTL97}
-Jacobs, Sue-Ellen, Wesley Thomas, and Sabine Lang, eds. 1997. \emph{Two-Spirit
-  People: {N}ative {A}merican Gender Identity, Sexuality, and Spirituality}.
-  Urbana: University of Illinois Press.
+\bibitem[Ciftler et~al.(2018)]{occupancy_wifi}
+Ciftler, B.~S., S.~Dikmese, A.~Guvenc, K.~Akkaya, and A.~Kadri. 2018.
+  ``Occupancy Counting With Burst and Intermittent Signals in Smart
+  Buildings.'' \emph{IEEE Internet of Things Journal} 5 (2): 724--735.
 
-\bibitem[Levitt and Dubner(2005)]{Lev05}
-Levitt, Steven~D., and Stephen~J. Dubner. 2005. \emph{Freakonomics: A Rogue
-  Economist Explores the Hidden Side of Everything}. New York: William Morrow.
+\bibitem[Dua et~al.(2008)]{soman}
+Dua, D., S.~Dambhare, R.~K. Gajbhiye, and S.~A. Soman. 2008. ``Optimal
+  Multistage Scheduling of PMU Placement: An ILP Approach.'' \emph{IEEE
+  Transactions on Power Delivery} 23 (4): 1812--1820.
 
-\bibitem[Morasse, Guderley, and Dodson(2008)]{Mor08}
-Morasse, S{\'e}bastien, Helga Guderley, and Julian~J. Dodson. 2008. ``Paternal
-  Reproductive Strategy Influences Metabolic Capacities and Muscle Development
-  of {A}tlantic Salmon (\emph{Salmo salar} L.) Embryos.'' \emph{Physiological
-  and Biochemical Zoology} 81 (4): 402--13.
+\bibitem[Ekwevugbe, Brown, and Fan(2012)]{brown_fan}
+Ekwevugbe, T., N.~Brown, and D.~Fan. 2012. ``A design model for building
+  occupancy detection using sensor fusion.'' In \emph{2012 6th IEEE
+  International Conference on Digital Ecosystems and Technologies (DEST)},
+  June, 1--6.
 
-\bibitem[Rohde, Levy, and Kehler(2008)]{Roh08}
-Rohde, Hannah, Roger Levy, and Andrew Kehler. 2008. ``Implicit Causality Biases
-  Influence Relative Clause Attachment.'' Poster presented at the 21st CUNY
-  Conference on Human Sentence Processing, Chapel Hill, NC, March.
+\bibitem[El-Shafie and Fakeih(2018)]{building_smart}
+El-Shafie, M., and L.~Fakeih. 2018. ``The smart environment of commercial
+  buildings.'' In \emph{2018 15th Learning and Technology Conference (L T)},
+  Feb, 161--166.
 
-\bibitem[Samples(2006)]{Sam06}
-Samples, John. 2006. ``The Origins of Modern Campaign Finance Law.'' In
-  \emph{The Fallacy of Campaign Finance Reform}, Chap.~7. Chicago: University
-  of Chicago Press.
+\bibitem[Eltamaly et~al.(2017)]{tf_renewable}
+Eltamaly, A.~M., M.~A. Mohamed, M.~S. Al-Saud, and A.~I. Alolah. 2017. ``Load
+  management as a smart grid concept for sizing and designing of hybrid
+  renewable energy systems.'' \emph{Engineering Optimization} 49 (10):
+  1813--1828.  \urlprefix\url{https://doi.org/10.1080/0305215X.2016.1261246}.
 
-\bibitem[Schuman and Scott(1987)]{Sch87}
-Schuman, Howard, and Jacqueline Scott. 1987. ``Problems in the Use of Survey
-  Questions to Measure Public Opinion.'' \emph{Science} 236: 957--59.
+\bibitem[Ghayvat et~al.(2015)]{iot_sb_wsn}
+Ghayvat, H., S.~Mukhopadhyay, X.~Gui, and N.~Suryadevara. 2015. ``WSN- and
+  IOT-Based Smart Homes and Their Extension to Smart Buildings.''
+  \emph{Sensors} 15 (5): 10350–10379.
+  \urlprefix\url{http://dx.doi.org/10.3390/s150510350}.
 
-\bibitem[Strunk and White(2000)]{Str00}
-Strunk, William, Jr., and E.~B. White. 2000. \emph{The Elements of Style}. 4th
-  ed. New York: Allyn and Bacon.
+\bibitem[Gyllstrom, Rosensweig, and Kurose(2012)]{gyllstrom}
+Gyllstrom, D., E.~Rosensweig, and J.~Kurose. 2012. ``On the Impact of PMU
+  Placement on Observability and Cross-validation.'' In \emph{Proceedings of
+  the 3rd International Conference on Future Energy Systems: Where Energy,
+  Computing and Communication Meet}, e-Energy '12, New York, NY, USA,
+  20:1--20:10. ACM.
+  \urlprefix\url{http://doi.acm.org/10.1145/2208828.2208848}.
 
-\bibitem[Teplin et~al.(2005)]{Tep05}
-Teplin, Linda~A., Gary~M. McClelland, Karen~M. Abram, and Jason~J. Washburn.
-  2005. ``Early Violent Death in Delinquent Youth: A Prospective Longitudinal
-  Study.'' Paper presented at the Annual Meeting of the American Psychology-Law
-  Society, La Jolla, CA, Mar.
+\bibitem[Hernández-Ramos et~al.(2015)]{iot_sb_safir}
+Hernández-Ramos, J.~L., M.~V. Moreno, J.~B. Bernabé, D.~G. Carrillo, and
+  A.~F. Skarmeta. 2015. ``SAFIR: Secure access framework for IoT-enabled
+  services on smart buildings.'' \emph{Journal of Computer and System Sciences}
+  81 (8): 1452 -- 1463.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022000014001858}.
 
-\bibitem[Wauchope(1950)]{Wau50}
-Wauchope, Robert. 1950. \emph{A Tentative Sequence of Pre-Classic Ceramics in
-  Middle {A}merica}. Vol.~1 of \emph{Middle {A}merican Research Records}. New
-  Orleans, LA: Tulane University.
+\bibitem[Hnat et~al.(2011)]{hitchhiker_sensors}
+Hnat, T.~W., V.~Srinivasan, J.~Lu, T.~I. Sookoor, R.~Dawson, J.~Stankovic, and
+  K.~Whitehouse. 2011. ``The Hitchhiker's Guide to Successful Residential
+  Sensing Deployments.'' In \emph{Proceedings of the 9th ACM SenSys}, NY, USA,
+  232--245. ACM.
 
-\bibitem[Weigel and Glazebrook(2002)]{Wei02}
-Weigel, Detlef, and Jane Glazebrook. 2002. \emph{\emph{Arabidopsis}: A
-  Laboratory Manual}. Cold Spring Harbor, NY: Cold Spring Harbor Laboratory
-  Press.
+\bibitem[Iyengar et~al.(2017)]{tcps_solarcast}
+Iyengar, S., N.~Sharma, D.~Irwin, P.~Shenoy, and K.~Ramamritham. 2017. ``A
+  Cloud-Based Black-Box Solar Predictor for Smart Homes.'' \emph{ACM Trans.
+  Cyber-Phys. Syst.} 1 (4): 21:1--21:24.
+  \urlprefix\url{http://doi.acm.org/10.1145/3004056}.
+
+\bibitem[Kabadayi, Pridgen, and Julien(2006)]{virtual_senors}
+Kabadayi, S., A.~Pridgen, and C.~Julien. 2006. ``Virtual sensors: abstracting
+  data from physical sensors.'' In \emph{2006 International Symposium on a
+  World of Wireless, Mobile and Multimedia Networks(WoWMoM'06)}, 6 pp.--592.
+
+\bibitem[Karmakar et~al.(2018)]{karmakar}
+Karmakar, G., U.~Arote, A.~Agarwal, and K.~Ramamritham. 2018. ``Adaptive Hybrid
+  Approaches to Thermal Modeling of Building.'' In \emph{Proceedings of the
+  Ninth International Conference on Future Energy Systems}, e-Energy '18, New
+  York, NY, USA, 477--479. ACM.
+  \urlprefix\url{http://doi.acm.org/10.1145/3208903.3212068}.
+
+\bibitem[Krause et~al.(2006)]{max_info_min_comm}
+Krause, A., C.~Guestrin, A.~Gupta, and J.~Kleinberg. 2006. ``Near-optimal
+  sensor placements: maximizing information while minimizing communication
+  cost.'' In \emph{2006 5th International Conference IPSN}, April, 2--10.
+
+\bibitem[Li et~al.(2019)]{scs_ob}
+Li, J., Z.~(J.) Yu, F.~Haghighat, and G.~Zhang. 2019. ``Development and
+  improvement of occupant behavior models towards realistic building
+  performance simulation: A review.'' \emph{Sustainable Cities and Society} 50:
+  101685.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2210670719303774}.
+
+\bibitem[Lu et~al.(2010)]{lu}
+Lu, J., T.~Sookoor, V.~Srinivasan, G.~Gao, B.~Holben, J.~Stankovic, E.~Field,
+  and K.~Whitehouse. 2010. ``The Smart Thermostat: Using Occupancy Sensors to
+  Save Energy in Homes.'' In \emph{Proceedings of the 8th ACM Conference on
+  Embedded Networked Sensor Systems}, SenSys '10, New York, NY, USA, 211--224.
+  ACM.  \urlprefix\url{http://doi.acm.org/10.1145/1869983.1870005}.
+
+\bibitem[Manousakis, Korres, and Georgilakis(2012)]{taxonomy_pmu}
+Manousakis, N.~M., G.~N. Korres, and P.~S. Georgilakis. 2012. ``Taxonomy of PMU
+  Placement Methodologies.'' \emph{IEEE Transactions on Power Systems} 27 (2):
+  1070--1077.
+
+\bibitem[Meyn et~al.(2009)]{meyn}
+Meyn, S., A.~Surana, Y.~Lin, S.~M. Oggianu, S.~Narayanan, and T.~A. Frewen.
+  2009. ``A sensor-utility-network method for estimation of occupancy in
+  buildings.'' In \emph{Proceedings of the 48h IEEE Conference on Decision and
+  Control (CDC) held jointly with 2009 28th Chinese Control Conference}, Dec,
+  1494--1500.
+
+\bibitem[{Minoli}, {Sohraby}, and {Occhiogrosso}(2017)]{iot_sb_ems_opti}
+{Minoli}, D., K.~{Sohraby}, and B.~{Occhiogrosso}. 2017. ``IoT Considerations,
+  Requirements, and Architectures for Smart Buildings—Energy Optimization and
+  Next-Generation Building Management Systems.'' \emph{IEEE Internet of Things
+  Journal} 4 (1): 269--283.
+
+\bibitem[Mitchell, Consulting, and Dunning(2011)]{pulp}
+Mitchell, S., S.~Mitchell Consulting, and I.~Dunning. 2011. ``PuLP: A Linear
+  Programming Toolkit for Python.'' .
+
+\bibitem[Mora, Matrella, and Ciampolini(2018)]{sensors_cloud_behaviour}
+Mora, N., G.~Matrella, and P.~Ciampolini. 2018. ``Cloud-Based Behavioral
+  Monitoring in Smart Homes.'' \emph{Sensors} 18 (6).
+  \urlprefix\url{http://www.mdpi.com/1424-8220/18/6/1951}.
+
+\bibitem[{Noureen}, {Roy}, and {Bayne}(2017)]{pmu_review}
+{Noureen}, S.~S., V.~{Roy}, and S.~B. {Bayne}. 2017. ``Phasor measurement unit
+  integration: A review on optimal PMU placement methods in power system.'' In
+  \emph{2017 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)}, Dec,
+  328--332.
+
+\bibitem[{Pan} et~al.(2015)]{iot_sb_prototype}
+{Pan}, J., R.~{Jain}, S.~{Paul}, T.~{Vu}, A.~{Saifullah}, and M.~{Sha}. 2015.
+  ``An Internet of Things Framework for Smart Energy in Buildings: Designs,
+  Prototype, and Experiments.'' \emph{IEEE Internet of Things Journal} 2 (6):
+  527--537.
+
+\bibitem[Phadke(1993)]{pmu}
+Phadke, A.~G. 1993. ``Synchronized phasor measurements in power systems.''
+  \emph{IEEE Computer Applications in Power} 6 (2): 10--15.
+
+\bibitem[Prakash et~al.(2015)]{smartmeter}
+Prakash, A.~K., V.~C. Prakash, B.~Doshi, U.~Arote, P.~K. Sahu, and
+  K.~Ramamritham. 2015. ``Locating and Sizing Smart Meter Deployment in
+  Buildings.'' In \emph{Proceedings of the 2015 ACM Sixth International
+  Conference on Future Energy Systems}, e-Energy '15, New York, NY, USA,
+  223--224. ACM.  \urlprefix\url{http://doi.acm.org/10.1145/2768510.2770950}.
+
+\bibitem[Radosavljević, Jevtić, and Klimenta(2016)]{tf_swarm}
+Radosavljević, J., M.~Jevtić, and D.~Klimenta. 2016. ``Energy and operation
+  management of a microgrid using particle swarm optimization.''
+  \emph{Engineering Optimization} 48 (5): 811--830.
+  \urlprefix\url{https://doi.org/10.1080/0305215X.2015.1057135}.
+
+\bibitem[Ree et~al.(2010)]{ree_centeno}
+Ree, J. D.~L., V.~Centeno, J.~S. Thorp, and A.~G. Phadke. 2010. ``Synchronized
+  Phasor Measurement Applications in Power Systems.'' \emph{IEEE Transactions
+  on Smart Grid} 1 (1): 20--27.
+
+\bibitem[Reena, Mathew, and Jacob(2018)]{elsevier_hvac}
+Reena, K.E.~M., A.~T. Mathew, and L.~Jacob. 2018. ``A flexible control strategy
+  for energy and comfort aware HVAC in large buildings.'' \emph{Building and
+  Environment} 145: 330 -- 342.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S036013231830564X}.
+
+\bibitem[Salimi, Liu, and Hammad(2019)]{elsevier_occ_realtime}
+Salimi, S., Z.~Liu, and A.~Hammad. 2019. ``Occupancy prediction model for
+  open-plan offices using real-time location system and inhomogeneous Markov
+  chain.'' \emph{Building and Environment} 152: 1 -- 16.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0360132319300885}.
+
+\bibitem[Stankovic(2014)]{stankovic_iot}
+Stankovic, J.~A. 2014. ``Research Directions for the Internet of Things.''
+  \emph{IEEE Internet of Things Journal} 1 (1): 3--9.
+
+\bibitem[Stojkoska and Trivodaliev(2017)]{iot_sb_challenges}
+Stojkoska, B. L.~R., and K.~V. Trivodaliev. 2017. ``A review of Internet of
+  Things for smart home: Challenges and solutions.'' \emph{Journal of Cleaner
+  Production} 140: 1454 -- 1464.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S095965261631589X}.
+
+\bibitem[Tao et~al.(2019)]{tf_pricing}
+Tao, L., Y.~Gao, Y.~Liu, and H.~Zhu. 2019. ``A rolling penalty function
+  algorithm of real-time pricing for smart microgrids based on bilevel
+  programming.'' \emph{Engineering Optimization} 0 (0): 1--18.
+  \urlprefix\url{https://doi.org/10.1080/0305215X.2019.1642882}.
+
+\bibitem[Thanayankizil et~al.(2012)]{softgreen}
+Thanayankizil, L.~V., S.~K. Ghai, D.~Chakraborty, and D.~P. Seetharam. 2012.
+  ``Softgreen: Towards energy management of green office buildings with soft
+  sensors.'' In \emph{2012 Fourth International Conference on Communication
+  Systems and Networks (COMSNETS 2012)}, Jan, 1--6.
+
+\bibitem[{The Internet of Trash: IoT Has a Looming E-Waste
+  Problem}(2018)]{IntofTrash}
+{The Internet of Trash: IoT Has a Looming E-Waste Problem}. 2018
+  \urlprefix\url{https://spectrum.ieee.org/telecom/internet/the-internet-of-trash-iot-has-a-looming-ewaste-problem}.
+
+\bibitem[Ujager and Mahmood(2019)]{sensors_caawd}
+Ujager, F.~S., and A.~Mahmood. 2019. ``A Context-Aware Accurate Wellness
+  Determination (CAAWD) Model for Elderly People Using Lazy Associative
+  Classification.'' \emph{Sensors} 19 (7).
+  \urlprefix\url{http://www.mdpi.com/1424-8220/19/7/1613}.
+
+\bibitem[Xu and Abur(2004)]{xu}
+Xu, B., and A.~Abur. 2004. ``Observability analysis and measurement placement
+  for systems with PMUs.'' In \emph{IEEE PES Power Systems Conference and
+  Exposition, 2004.}, Oct, 943--946 vol.2.
+
+\bibitem[{Zanella} et~al.(2014)]{zanella}
+{Zanella}, A., N.~{Bui}, A.~{Castellani}, L.~{Vangelista}, and M.~{Zorzi}.
+  2014. ``Internet of Things for Smart Cities.'' \emph{IEEE Internet of Things
+  Journal} 1 (1): 22--32.
+
+\bibitem[Zuraimi et~al.(2017)]{elsevier_co2}
+Zuraimi, M.S., A.~Pantazaras, K.A. Chaturvedi, J.J. Yang, K.W. Tham, and S.E.
+  Lee. 2017. ``Predicting occupancy counts using physical and statistical
+  Co2-based modeling methodologies.'' \emph{Building and Environment} 123: 517
+  -- 528.
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0360132317303268}.
 
 \end{thebibliography}

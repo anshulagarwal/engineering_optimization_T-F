@@ -1,0 +1,935 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.7)  13 JAN 2020 22:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2018-12-01>
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))) (./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(./svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen102
+\headerboxheight=\dimen103
+\betweenumberspace=\dimen104
+\aftertext=\dimen105
+\headlineindent=\dimen106
+\c@inst=\count80
+\c@auth=\count81
+\instindent=\dimen107
+\authrun=\box27
+\authorrunning=\toks14
+\titrun=\box28
+\titlerunning=\toks15
+\combirun=\box29
+\c@lastpage=\count82
+\rubricwidth=\dimen108
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\spthmsep=\dimen109
+\c@theorem=\count88
+\c@case=\count89
+\c@conjecture=\count90
+\c@corollary=\count91
+\c@definition=\count92
+\c@example=\count93
+\c@exercise=\count94
+\c@lemma=\count95
+\c@note=\count96
+\c@problem=\count97
+\c@property=\count98
+\c@proposition=\count99
+\c@question=\count100
+\c@solution=\count101
+\c@remark=\count102
+\c@figure=\count103
+\c@table=\count104
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen110
+\tabcapgap=\dimen111
+\figgap=\dimen112
+\bibindent=\dimen113
+\@tempcntc=\count105
+) (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(c:/texlive/2019/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
+
+(c:/texlive/2019/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(c:/texlive/2019/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(c:/texlive/2019/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks17
+\@arclen=\dimen116
+\@arcrad=\dimen117
+\@tempdimd=\dimen118
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(c:/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count106
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count107
+\FP@xia=\count108
+\FP@xib=\count109
+\FP@xfa=\count110
+\FP@xfb=\count111
+\FP@rega=\count112
+\FP@regb=\count113
+\FP@regs=\count114
+\FP@times=\count115
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count116
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count117
+\calc@Bcount=\count118
+\calc@Adimen=\dimen119
+\calc@Bdimen=\dimen120
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count119
+\calc@Cskip=\skip45
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen121
+\ar@mcellbox=\box30
+\extrarowheight=\dimen122
+\NC@list=\toks18
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box31
+)
+\diagbox@boxa=\box32
+\diagbox@boxb=\box33
+\diagbox@boxm=\box34
+\diagbox@wd=\dimen123
+\diagbox@ht=\dimen124
+\diagbox@insepl=\dimen125
+\diagbox@insepr=\dimen126
+\diagbox@outsepl=\dimen127
+\diagbox@outsepr=\dimen128
+)
+(c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count120
+\multirow@dima=\skip49
+\bigstrutjot=\dimen129
+)
+(c:/texlive/2019/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen130
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen131
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count121
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count122
+\leftroot@=\count123
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count124
+\DOTSCASE@=\count125
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box35
+\strutbox@=\box36
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count126
+\c@MaxMatrixCols=\count127
+\dotsspace@=\muskip10
+\c@parentequation=\count128
+\dspbrk@lvl=\count129
+\tag@help=\toks20
+\row@=\count130
+\column@=\count131
+\maxfields@=\count132
+\andhelp@=\toks21
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (c:/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count133
+)
+(c:/texlive/2019/texmf-dist/tex/latex/breakcites/breakcites.sty)
+(./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen139
+\scratchbox=\box37
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen140
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks25
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+SVJour3 warning: Missing \institute
+
+Overfull \hbox (29.64651pt too wide) detected at line 114
+|[] |
+ []
+
+
+SVJour3 Warning: Title too long for running head.
+Please supply a shorter form with \titlerunning prior to \maketitle
+[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+[4] Excluding 'comment' comment.
+<"images/linear sensor opti flow chart diagram".pdf, id=22, 846.0408pt x 247.88
+61pt>
+File: "images/linear sensor opti flow chart diagram".pdf Graphic file (type pdf
+)
+<use "images/linear sensor opti flow chart diagram".pdf>
+Package pdftex.def Info: "images/linear sensor opti flow chart diagram".pdf  us
+ed on input line 366.
+(pdftex.def)             Requested size: 338.0pt x 99.03163pt.
+
+Overfull \hbox (0.73752pt too wide) in paragraph at lines 377--406
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./images/application area topology.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<"images/application area topology".pdf, id=23, 794.97pt x 614.295pt>
+File: "images/application area topology".pdf Graphic file (type pdf)
+<use "images/application area topology".pdf>
+Package pdftex.def Info: "images/application area topology".pdf  used on input 
+line 417.
+(pdftex.def)             Requested size: 338.0pt x 261.18909pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/linear sensor opti flow chart diagram.pdf
+
+pdfTeX warning: pdflatex.exe (file ./images/linear sensor opti flow chart diagr
+am.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./images/application area topology.pdf>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\OT1/cmr/bx/n/8 Sensor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\OT1/cmr/bx/n/8 Power
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/bx/n/8 Con-sump-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]|\OT1/cmr/bx/n/8 Number and
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 525--525
+\OT1/cmr/bx/n/8 Type of ON
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+[]|\OT1/cmr/m/n/8 Temperature
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+[]|\OT1/cmr/m/n/8 Soft Sen-sor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+\OT1/cmr/m/n/8 (in-fer from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+[]|\OT1/cmr/m/n/8 Number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+\OT1/cmr/m/n/8 ON ap-pli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+[]|\OT1/cmr/m/n/8 Occupancy and
+ []
+
+
+Overfull \hbox (14.28018pt too wide) in paragraph at lines 523--534
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+Overfull \hbox (10.89688pt too wide) in paragraph at lines 567--586
+ [][] 
+ []
+
+
+Overfull \hbox (0.54414pt too wide) in paragraph at lines 600--600
+ []|\OT1/cmr/bx/n/8 Smartmeter| 
+ []
+
+
+Overfull \hbox (16.54059pt too wide) in paragraph at lines 591--621
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
+Overfull \hbox (4.1406pt too wide) in paragraph at lines 687--700
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11] [12] (./template.bbl
+Underfull \hbox (badness 1571) in paragraph at lines 34--39
+[]\OT1/cmr/m/n/10 Balaji B, Xu J, Nwokafor A, Gupta R, Agar-wal Y (2013) Sen-ti
+nel:
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 34--39
+\OT1/cmr/m/n/10 Oc-cu-pancy based hvac ac-tu-a-tion us-ing ex-ist-ing wifi in-f
+ras-truc-ture
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 66--72
+[]\OT1/cmr/m/n/10 Bellala G, Mar-wah M, Ar-litt M, Lyon G, Bash C (2012) Fol-lo
+w-ing
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 66--72
+\OT1/cmr/m/n/10 the elec-trons: Meth-ods for power man-age-ment in com-mer-cial
+ build-
+ []
+
+[13]
+Underfull \hbox (badness 1789) in paragraph at lines 75--79
+[]\OT1/cmr/m/n/10 Bellala G, Mar-wah M, Ar-litt M, Lyon G, Bash C, Shah A (2017
+)
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 75--79
+\OT1/cmr/m/n/10 Data an-a-lyt-ics for man-ag-ing power in com-mer-cial build-in
+gs. ACM
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 75--79
+\OT1/cmr/m/n/10 Trans Cyber-Phys Syst 1(4):22:1--22:25, DOI 10.1145/3110219, UR
+L
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+[]\OT1/cmr/m/n/10 Eltamaly AM, Mo-hamed MA, Al-Saud MS, Alo-lah AI (2017)
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 110--116
+\OT1/cmr/m/n/10 Load man-age-ment as a smart grid con-cept for siz-ing and de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+\OT1/cmr/m/n/10 sign-ing of hy-brid re-new-able en-ergy sys-tems. En-gi-neer-in
+g Op-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+\OT1/cmr/m/n/10 miza-tion 49(10):1813--1828, DOI 10.1080/0305215X.2016.1261246,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+\OT1/cmr/m/n/10 URL https://doi.org/10.1080/0305215X.2016.1261246,
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 119--123
+[]\OT1/cmr/m/n/10 Ghayvat H, Mukhopad-hyay S, Gui X, Suryade-vara N (2015) Wsn-
+
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 119--123
+\OT1/cmr/m/n/10 and iot-based smart homes and their ex-ten-sion to smart build-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
+\OT1/cmr/m/n/10 ings. Sen-sors 15(5):10350{10379, DOI 10.3390/s150510350, URL
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 125--129
+[]\OT1/cmr/m/n/10 Gross G, Fin-lay D (2000) Gen-er-a-tion sup-ply bid-ding in p
+er-fectly
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 125--129
+\OT1/cmr/m/n/10 com-pet-i-tive elec-tric-ity mar-kets. Com-pu-ta-tional & Math-
+e-mat-i-cal Or-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 125--129
+\OT1/cmr/m/n/10 ga-ni-za-tion The-ory 6(1):83--98, DOI 10.1023/A:1009677326718,
+ URL
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 131--137
+[]\OT1/cmr/m/n/10 Gyllstrom D, Rosensweig E, Kurose J (2012) On the im-pact of 
+pmu
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 131--137
+\OT1/cmr/m/n/10 3rd In-ter-na-tional Con-fer-ence on Fu-ture En-ergy Sys-tems: 
+Where En-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 131--137
+\OT1/cmr/m/n/10 ergy, Com-put-ing and Com-mu-ni-ca-tion Meet, ACM, New York, NY
+,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 3291) in paragraph at lines 140--145
+\OT1/cmr/m/n/10 AF (2015) Safir: Se-cure ac-cess frame-work for iot-enabled ser
+-vices
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 140--145
+\OT1/cmr/m/n/10 on smart build-ings. Jour-nal of Com-puter and Sys-tem Sci-ence
+s
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 154--158
+[]\OT1/cmr/m/n/10 Iyengar S, Sharma N, Ir-win D, Shenoy P, Ra-mam-ritham K (201
+7)
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 154--158
+\OT1/cmr/m/n/10 A cloud-based black-box so-lar pre-dic-tor for smart homes. ACM
+
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 154--158
+\OT1/cmr/m/n/10 Trans Cyber-Phys Syst 1(4):21:1--21:24, DOI 10.1145/3004056, UR
+L
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 181--186
+[]\OT1/cmr/m/n/10 Li J, Yu ZJ, Haghighat F, Zhang G (2019) De-vel-op-ment and i
+m-
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 181--186
+\OT1/cmr/m/n/10 prove-ment of oc-cu-pant be-hav-ior mod-els to-wards re-al-is-t
+ic build-
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 181--186
+\OT1/cmr/m/n/10 ing per-for-mance sim-u-la-tion: A re-view. Sus-tain-able Citie
+s and So-
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 181--186
+\OT1/cmr/m/n/10 ci-ety 50:101685, DOI https://doi.org/10.1016/j.scs.2019.101685
+, URL
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 189--195
+\OT1/cmr/m/n/10 fer-ence on Em-bed-ded Net-worked Sen-sor Sys-tems, ACM, New Yo
+rk,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \hbox (badness 3312) in paragraph at lines 245--250
+[]\OT1/cmr/m/n/10 Prakash AK, Prakash VC, Doshi B, Arote U, Sahu PK, Ra-mam-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 245--250
+\OT1/cmr/m/n/10 ritham K (2015) Lo-cat-ing and siz-ing smart me-ter de-ploy-men
+t in
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 245--250
+\OT1/cmr/m/n/10 build-ings. In: Pro-ceed-ings of the 2015 ACM Sixth In-ter-na-t
+ional
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 245--250
+\OT1/cmr/m/n/10 Con-fer-ence on Fu-ture En-ergy Sys-tems, ACM, New York, NY,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
+\OT1/cmr/m/n/10 Op-ti-miza-tion 48(5):811--830, DOI 10.1080/0305215X.2015.10571
+35,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--258
+\OT1/cmr/m/n/10 URL https://doi.org/10.1080/0305215X.2015.1057135,
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 271--276
+[]\OT1/cmr/m/n/10 Salimi S, Liu Z, Ham-mad A (2019) Oc-cu-pancy pre-dic-tion mo
+del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+\OT1/cmr/m/n/10 for open-plan of-fices us-ing real-time lo-ca-tion sys-tem and 
+in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+\OT1/cmr/m/n/10 ho-mo-ge-neous markov chain. Build-ing and En-vi-ron-ment 152:1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+\OT1/cmr/m/n/10 -- 16, DOI https://doi.org/10.1016/j.buildenv.2019.01.052, URL
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \hbox (badness 2393) in paragraph at lines 288--293
+\OT1/cmr/m/n/10 neer-ing Op-ti-miza-tion 0(0):1--18, DOI 10.1080/0305215X.2019.
+1642882,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--293
+\OT1/cmr/m/n/10 URL https://doi.org/10.1080/0305215X.2019.1642882,
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 296--300
+\OT1/cmr/m/n/10 green: To-wards en-ergy man-age-ment of green of-fice build-ing
+s with
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 296--300
+\OT1/cmr/m/n/10 soft sen-sors. In: 2012 Fourth In-ter-na-tional Con-fer-ence on
+ Com-mu-
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 296--300
+\OT1/cmr/m/n/10 ni-ca-tion Sys-tems and Net-works (COM-SNETS 2012), pp 1--6, DO
+I 
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 303--305
+[]\OT1/cmr/m/n/10 The In-ter-net of Trash: IoT Has a Loom-ing E-Waste Prob-lem 
+(2018)
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 325--330
+[]\OT1/cmr/m/n/10 Zuraimi M, Pan-tazaras A, Chaturvedi K, Yang J, Tham K, Lee
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 325--330
+\OT1/cmr/m/n/10 S (2017) Pre-dict-ing oc-cu-pancy counts us-ing phys-i-cal and 
+sta-tis-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 325--330
+\OT1/cmr/m/n/10 ti-cal co2-based mod-el-ing method-olo-gies. Build-ing and En-v
+i-ron-ment
+ []
+
+) [17] (./template.aux) ) 
+Here is how much of TeX's memory you used:
+ 4861 strings out of 492609
+ 65115 string characters out of 6132819
+ 176132 words of memory out of 5000000
+ 8679 multiletter control sequences out of 15000+600000
+ 8287 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,19n,35p,761b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+8.pfb>
+Output written on template.pdf (17 pages, 568051 bytes).
+PDF statistics:
+ 195 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

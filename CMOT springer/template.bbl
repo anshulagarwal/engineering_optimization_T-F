@@ -1,0 +1,331 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Abur and Magnago(1999)}]{abur}
+Abur A, Magnago FH (1999) Optimal meter placement for maintaining observability
+  during single branch outages. IEEE Transactions on Power Systems
+  14(4):1273--1278, \doi{10.1109/59.801884}
+
+\bibitem[{Agarwal et~al.(2016{\natexlab{a}})Agarwal, Jaiswal, Gudhaka,
+  Munigala, Ramamritham, and Karmakar}]{anshul_sensys_demo}
+Agarwal A, Jaiswal K, Gudhaka U, Munigala V, Ramamritham K, Karmakar G
+  (2016{\natexlab{a}}) Observability-driven sensor deployment in smart academic
+  environments: Demo abstract. In: Proceedings of the 14th {ACM} Conference on
+  Embedded Network Sensor Systems, SenSys 2016, Stanford, CA, USA, November
+  14-16, 2016, pp 328--329, \doi{10.1145/2994551.2996546},
+  \urlprefix\url{http://doi.acm.org/10.1145/2994551.2996546}
+
+\bibitem[{Agarwal et~al.(2016{\natexlab{b}})Agarwal, Munigala, and
+  Ramamritham}]{anshuleEnergy16}
+Agarwal A, Munigala V, Ramamritham K (2016{\natexlab{b}}) Observability:
+  replacing sensors with inference engines. In: Proceedings of the Seventh
+  International Conference on Future Energy Systems, Waterloo, ON, Canada, June
+  21 - 24, 2016 - Poster Sessions, pp 9:1--9:2, \doi{10.1145/2939912.2942356},
+  \urlprefix\url{http://doi.acm.org/10.1145/2939912.2942356}
+
+\bibitem[{Balaji et~al.(2013)Balaji, Xu, Nwokafor, Gupta, and Agarwal}]{balaji}
+Balaji B, Xu J, Nwokafor A, Gupta R, Agarwal Y (2013) Sentinel: Occupancy based
+  hvac actuation using existing wifi infrastructure within commercial
+  buildings. In: Proceedings of the 11th ACM Conference SenSys '13, ACM, New
+  York, NY, USA, pp 17:1--17:14,
+  \urlprefix\url{http://doi.acm.org/10.1145/2517351.2517370}
+
+\bibitem[{Balaji et~al.(2016)Balaji, Bhattacharya, Fierro, Gao, Gluck, Hong,
+  Johansen, Koh, Ploennigs, Agarwal, Berges, Culler, Gupta, Kj{\ae}rgaard,
+  Srivastava, and Whitehouse}]{brick}
+Balaji B, Bhattacharya A, Fierro G, Gao J, Gluck J, Hong D, Johansen A, Koh J,
+  Ploennigs J, Agarwal Y, Berges M, Culler D, Gupta R, Kj{\ae}rgaard MB,
+  Srivastava M, Whitehouse K (2016) Brick: Towards a unified metadata schema
+  for buildings. In: Proceedings of the 3rd ACM International Conference
+  BuildSys '16, ACM, New York, NY, USA, pp 41--50,
+  \urlprefix\url{http://doi.acm.org/10.1145/2993422.2993577}
+
+\bibitem[{Barker et~al.(2019)Barker, Kalra, Irwin, and
+  Shenoy}]{tcps_virtualpowermeter}
+Barker S, Kalra S, Irwin D, Shenoy P (2019) Building virtual power meters for
+  online load tracking. ACM Trans Cyber-Phys Syst 3(2):23:1--23:24,
+  \doi{10.1145/3303860}, \urlprefix\url{http://doi.acm.org/10.1145/3303860}
+
+\bibitem[{{Bashir} and {Gill}(2016)}]{iot_sb_bigdata}
+{Bashir} MR, {Gill} AQ (2016) Towards an iot big data analytics framework:
+  Smart buildings systems. In: 2016 IEEE 18th International Conference on High
+  Performance Computing and Communications; IEEE 14th International Conference
+  on Smart City; IEEE 2nd International Conference on Data Science and Systems
+  (HPCC/SmartCity/DSS), pp 1325--1332,
+  \doi{10.1109/HPCC-SmartCity-DSS.2016.0188}
+
+\bibitem[{Bellala et~al.(2012)Bellala, Marwah, Arlitt, Lyon, and
+  Bash}]{bellala_electrons}
+Bellala G, Marwah M, Arlitt M, Lyon G, Bash C (2012) Following the electrons:
+  Methods for power management in commercial buildings. In: Proceedings of the
+  18th ACM SIGKDD International Conference on Knowledge Discovery and Data
+  Mining, ACM, New York, NY, USA, KDD '12, pp 994--1002,
+  \doi{10.1145/2339530.2339685},
+  \urlprefix\url{http://doi.acm.org/10.1145/2339530.2339685}
+
+\bibitem[{Bellala et~al.(2017)Bellala, Marwah, Arlitt, Lyon, Bash, and
+  Shah}]{tcps_bellala}
+Bellala G, Marwah M, Arlitt M, Lyon G, Bash C, Shah A (2017) Data analytics for
+  managing power in commercial buildings. ACM Trans Cyber-Phys Syst
+  1(4):22:1--22:25, \doi{10.1145/3110219},
+  \urlprefix\url{http://doi.acm.org/10.1145/3110219}
+
+\bibitem[{Chang et~al.(2011)Chang, Tan, Xing, Yuan, Lu, Chen, and Yang}]{chang}
+Chang X, Tan R, Xing G, Yuan Z, Lu C, Chen Y, Yang Y (2011) Sensor placement
+  algorithms for fusion-based surveillance networks. IEEE Transactions on
+  Parallel and Distributed Systems 22(8):1407--1414,
+  \doi{10.1109/TPDS.2011.115}
+
+\bibitem[{Ciftler et~al.(2018)Ciftler, Dikmese, Guvenc, Akkaya, and
+  Kadri}]{occupancy_wifi}
+Ciftler BS, Dikmese S, Guvenc A, Akkaya K, Kadri A (2018) Occupancy counting
+  with burst and intermittent signals in smart buildings. IEEE Internet of
+  Things Journal 5(2):724--735, \doi{10.1109/JIOT.2017.2756689}
+
+\bibitem[{Dua et~al.(2008)Dua, Dambhare, Gajbhiye, and Soman}]{soman}
+Dua D, Dambhare S, Gajbhiye RK, Soman SA (2008) Optimal multistage scheduling
+  of pmu placement: An ilp approach. IEEE Transactions on Power Delivery
+  23(4):1812--1820, \doi{10.1109/TPWRD.2008.919046}
+
+\bibitem[{Ekwevugbe et~al.(2012)Ekwevugbe, Brown, and Fan}]{brown_fan}
+Ekwevugbe T, Brown N, Fan D (2012) A design model for building occupancy
+  detection using sensor fusion. In: 2012 6th IEEE International Conference on
+  Digital Ecosystems and Technologies (DEST), pp 1--6,
+  \doi{10.1109/DEST.2012.6227924}
+
+\bibitem[{El-Shafie and Fakeih(2018)}]{building_smart}
+El-Shafie M, Fakeih L (2018) The smart environment of commercial buildings. In:
+  2018 15th Learning and Technology Conference (L T), pp 161--166,
+  \doi{10.1109/LT.2018.8368501}
+
+\bibitem[{Eltamaly et~al.(2017)Eltamaly, Mohamed, Al-Saud, and
+  Alolah}]{tf_renewable}
+Eltamaly AM, Mohamed MA, Al-Saud MS, Alolah AI (2017) Load management as a
+  smart grid concept for sizing and designing of hybrid renewable energy
+  systems. Engineering Optimization 49(10):1813--1828,
+  \doi{10.1080/0305215X.2016.1261246},
+  \urlprefix\url{https://doi.org/10.1080/0305215X.2016.1261246},
+  \eprint{https://doi.org/10.1080/0305215X.2016.1261246}
+
+\bibitem[{Ghayvat et~al.(2015)Ghayvat, Mukhopadhyay, Gui, and
+  Suryadevara}]{iot_sb_wsn}
+Ghayvat H, Mukhopadhyay S, Gui X, Suryadevara N (2015) Wsn- and iot-based smart
+  homes and their extension to smart buildings. Sensors 15(5):10350–10379,
+  \doi{10.3390/s150510350},
+  \urlprefix\url{http://dx.doi.org/10.3390/s150510350}
+
+\bibitem[{Gross and Finlay(2000)}]{cmot_bid}
+Gross G, Finlay D (2000) Generation supply bidding in perfectly competitive
+  electricity markets. Computational {\&} Mathematical Organization Theory
+  6(1):83--98, \doi{10.1023/A:1009677326718},
+  \urlprefix\url{https://doi.org/10.1023/A:1009677326718}
+
+\bibitem[{Gyllstrom et~al.(2012)Gyllstrom, Rosensweig, and Kurose}]{gyllstrom}
+Gyllstrom D, Rosensweig E, Kurose J (2012) On the impact of pmu placement on
+  observability and cross-validation. In: Proceedings of the 3rd International
+  Conference on Future Energy Systems: Where Energy, Computing and
+  Communication Meet, ACM, New York, NY, USA, e-Energy '12, pp 20:1--20:10,
+  \doi{10.1145/2208828.2208848},
+  \urlprefix\url{http://doi.acm.org/10.1145/2208828.2208848}
+
+\bibitem[{Hernández-Ramos et~al.(2015)Hernández-Ramos, Moreno, Bernabé,
+  Carrillo, and Skarmeta}]{iot_sb_safir}
+Hernández-Ramos JL, Moreno MV, Bernabé JB, Carrillo DG, Skarmeta AF (2015)
+  Safir: Secure access framework for iot-enabled services on smart buildings.
+  Journal of Computer and System Sciences 81(8):1452 -- 1463,
+  \doi{https://doi.org/10.1016/j.jcss.2014.12.021},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0022000014001858}
+
+\bibitem[{Hnat et~al.(2011)Hnat, Srinivasan, Lu, Sookoor, Dawson, Stankovic,
+  and Whitehouse}]{hitchhiker_sensors}
+Hnat TW, Srinivasan V, Lu J, Sookoor TI, Dawson R, Stankovic J, Whitehouse K
+  (2011) The hitchhiker's guide to successful residential sensing deployments.
+  In: Proceedings of the 9th ACM SenSys, ACM, NY, USA, pp 232--245
+
+\bibitem[{Iyengar et~al.(2017)Iyengar, Sharma, Irwin, Shenoy, and
+  Ramamritham}]{tcps_solarcast}
+Iyengar S, Sharma N, Irwin D, Shenoy P, Ramamritham K (2017) A cloud-based
+  black-box solar predictor for smart homes. ACM Trans Cyber-Phys Syst
+  1(4):21:1--21:24, \doi{10.1145/3004056},
+  \urlprefix\url{http://doi.acm.org/10.1145/3004056}
+
+\bibitem[{Kabadayi et~al.(2006)Kabadayi, Pridgen, and Julien}]{virtual_senors}
+Kabadayi S, Pridgen A, Julien C (2006) Virtual sensors: abstracting data from
+  physical sensors. In: 2006 International Symposium on a World of Wireless,
+  Mobile and Multimedia Networks(WoWMoM'06), pp 6 pp.--592,
+  \doi{10.1109/WOWMOM.2006.115}
+
+\bibitem[{Karmakar et~al.(2018)Karmakar, Arote, Agarwal, and
+  Ramamritham}]{karmakar}
+Karmakar G, Arote U, Agarwal A, Ramamritham K (2018) Adaptive hybrid approaches
+  to thermal modeling of building. In: Proceedings of the Ninth International
+  Conference on Future Energy Systems, ACM, New York, NY, USA, e-Energy '18, pp
+  477--479, \doi{10.1145/3208903.3212068},
+  \urlprefix\url{http://doi.acm.org/10.1145/3208903.3212068}
+
+\bibitem[{Krause et~al.(2006)Krause, Guestrin, Gupta, and
+  Kleinberg}]{max_info_min_comm}
+Krause A, Guestrin C, Gupta A, Kleinberg J (2006) Near-optimal sensor
+  placements: maximizing information while minimizing communication cost. In:
+  2006 5th International Conference IPSN, pp 2--10,
+  \doi{10.1145/1127777.1127782}
+
+\bibitem[{Li et~al.(2019)Li, Yu, Haghighat, and Zhang}]{scs_ob}
+Li J, Yu ZJ, Haghighat F, Zhang G (2019) Development and improvement of
+  occupant behavior models towards realistic building performance simulation: A
+  review. Sustainable Cities and Society 50:101685,
+  \doi{https://doi.org/10.1016/j.scs.2019.101685},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2210670719303774}
+
+\bibitem[{Lu et~al.(2010)Lu, Sookoor, Srinivasan, Gao, Holben, Stankovic,
+  Field, and Whitehouse}]{lu}
+Lu J, Sookoor T, Srinivasan V, Gao G, Holben B, Stankovic J, Field E,
+  Whitehouse K (2010) The smart thermostat: Using occupancy sensors to save
+  energy in homes. In: Proceedings of the 8th ACM Conference on Embedded
+  Networked Sensor Systems, ACM, New York, NY, USA, SenSys '10, pp 211--224,
+  \doi{10.1145/1869983.1870005},
+  \urlprefix\url{http://doi.acm.org/10.1145/1869983.1870005}
+
+\bibitem[{Manousakis et~al.(2012)Manousakis, Korres, and
+  Georgilakis}]{taxonomy_pmu}
+Manousakis NM, Korres GN, Georgilakis PS (2012) Taxonomy of pmu placement
+  methodologies. IEEE Transactions on Power Systems 27(2):1070--1077,
+  \doi{10.1109/TPWRS.2011.2179816}
+
+\bibitem[{Meyn et~al.(2009)Meyn, Surana, Lin, Oggianu, Narayanan, and
+  Frewen}]{meyn}
+Meyn S, Surana A, Lin Y, Oggianu SM, Narayanan S, Frewen TA (2009) A
+  sensor-utility-network method for estimation of occupancy in buildings. In:
+  Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held
+  jointly with 2009 28th Chinese Control Conference, pp 1494--1500
+
+\bibitem[{{Minoli} et~al.(2017){Minoli}, {Sohraby}, and
+  {Occhiogrosso}}]{iot_sb_ems_opti}
+{Minoli} D, {Sohraby} K, {Occhiogrosso} B (2017) Iot considerations,
+  requirements, and architectures for smart buildings—energy optimization and
+  next-generation building management systems. IEEE Internet of Things Journal
+  4(1):269--283, \doi{10.1109/JIOT.2017.2647881}
+
+\bibitem[{Mitchell et~al.(2011)Mitchell, Consulting, and Dunning}]{pulp}
+Mitchell S, Consulting SM, Dunning I (2011) Pulp: A linear programming toolkit
+  for python
+
+\bibitem[{Mora et~al.(2018)Mora, Matrella, and
+  Ciampolini}]{sensors_cloud_behaviour}
+Mora N, Matrella G, Ciampolini P (2018) Cloud-based behavioral monitoring in
+  smart homes. Sensors 18(6), \doi{10.3390/s18061951},
+  \urlprefix\url{http://www.mdpi.com/1424-8220/18/6/1951}
+
+\bibitem[{{Noureen} et~al.(2017){Noureen}, {Roy}, and {Bayne}}]{pmu_review}
+{Noureen} SS, {Roy} V, {Bayne} SB (2017) Phasor measurement unit integration: A
+  review on optimal pmu placement methods in power system. In: 2017 IEEE Region
+  10 Humanitarian Technology Conference (R10-HTC), pp 328--332,
+  \doi{10.1109/R10-HTC.2017.8288967}
+
+\bibitem[{{Pan} et~al.(2015){Pan}, {Jain}, {Paul}, {Vu}, {Saifullah}, and
+  {Sha}}]{iot_sb_prototype}
+{Pan} J, {Jain} R, {Paul} S, {Vu} T, {Saifullah} A, {Sha} M (2015) An internet
+  of things framework for smart energy in buildings: Designs, prototype, and
+  experiments. IEEE Internet of Things Journal 2(6):527--537,
+  \doi{10.1109/JIOT.2015.2413397}
+
+\bibitem[{Phadke(1993)}]{pmu}
+Phadke AG (1993) Synchronized phasor measurements in power systems. IEEE
+  Computer Applications in Power 6(2):10--15, \doi{10.1109/67.207465}
+
+\bibitem[{Prakash et~al.(2015)Prakash, Prakash, Doshi, Arote, Sahu, and
+  Ramamritham}]{smartmeter}
+Prakash AK, Prakash VC, Doshi B, Arote U, Sahu PK, Ramamritham K (2015)
+  Locating and sizing smart meter deployment in buildings. In: Proceedings of
+  the 2015 ACM Sixth International Conference on Future Energy Systems, ACM,
+  New York, NY, USA, e-Energy '15, pp 223--224, \doi{10.1145/2768510.2770950},
+  \urlprefix\url{http://doi.acm.org/10.1145/2768510.2770950}
+
+\bibitem[{Radosavljević et~al.(2016)Radosavljević, Jevtić, and
+  Klimenta}]{tf_swarm}
+Radosavljević J, Jevtić M, Klimenta D (2016) Energy and operation management
+  of a microgrid using particle swarm optimization. Engineering Optimization
+  48(5):811--830, \doi{10.1080/0305215X.2015.1057135},
+  \urlprefix\url{https://doi.org/10.1080/0305215X.2015.1057135},
+  \eprint{https://doi.org/10.1080/0305215X.2015.1057135}
+
+\bibitem[{Ree et~al.(2010)Ree, Centeno, Thorp, and Phadke}]{ree_centeno}
+Ree JDL, Centeno V, Thorp JS, Phadke AG (2010) Synchronized phasor measurement
+  applications in power systems. IEEE Transactions on Smart Grid 1(1):20--27,
+  \doi{10.1109/TSG.2010.2044815}
+
+\bibitem[{Reena et~al.(2018)Reena, Mathew, and Jacob}]{elsevier_hvac}
+Reena KM, Mathew AT, Jacob L (2018) A flexible control strategy for energy and
+  comfort aware hvac in large buildings. Building and Environment 145:330 --
+  342, \doi{https://doi.org/10.1016/j.buildenv.2018.09.016},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S036013231830564X}
+
+\bibitem[{Salimi et~al.(2019)Salimi, Liu, and Hammad}]{elsevier_occ_realtime}
+Salimi S, Liu Z, Hammad A (2019) Occupancy prediction model for open-plan
+  offices using real-time location system and inhomogeneous markov chain.
+  Building and Environment 152:1 -- 16,
+  \doi{https://doi.org/10.1016/j.buildenv.2019.01.052},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0360132319300885}
+
+\bibitem[{Stankovic(2014)}]{stankovic_iot}
+Stankovic JA (2014) Research directions for the internet of things. IEEE
+  Internet of Things Journal 1(1):3--9, \doi{10.1109/JIOT.2014.2312291}
+
+\bibitem[{Stojkoska and Trivodaliev(2017)}]{iot_sb_challenges}
+Stojkoska BLR, Trivodaliev KV (2017) A review of internet of things for smart
+  home: Challenges and solutions. Journal of Cleaner Production 140:1454 --
+  1464, \doi{https://doi.org/10.1016/j.jclepro.2016.10.006},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S095965261631589X}
+
+\bibitem[{Tao et~al.(2019)Tao, Gao, Liu, and Zhu}]{tf_pricing}
+Tao L, Gao Y, Liu Y, Zhu H (2019) A rolling penalty function algorithm of
+  real-time pricing for smart microgrids based on bilevel programming.
+  Engineering Optimization 0(0):1--18, \doi{10.1080/0305215X.2019.1642882},
+  \urlprefix\url{https://doi.org/10.1080/0305215X.2019.1642882},
+  \eprint{https://doi.org/10.1080/0305215X.2019.1642882}
+
+\bibitem[{Thanayankizil et~al.(2012)Thanayankizil, Ghai, Chakraborty, and
+  Seetharam}]{softgreen}
+Thanayankizil LV, Ghai SK, Chakraborty D, Seetharam DP (2012) Softgreen:
+  Towards energy management of green office buildings with soft sensors. In:
+  2012 Fourth International Conference on Communication Systems and Networks
+  (COMSNETS 2012), pp 1--6, \doi{10.1109/COMSNETS.2012.6151374}
+
+\bibitem[{{The Internet of Trash: IoT Has a Looming E-Waste
+  Problem}(2018)}]{IntofTrash}
+{The Internet of Trash: IoT Has a Looming E-Waste Problem} (2018)
+  \urlprefix\url{https://spectrum.ieee.org/telecom/internet/the-internet-of-trash-iot-has-a-looming-ewaste-problem}
+
+\bibitem[{Ujager and Mahmood(2019)}]{sensors_caawd}
+Ujager FS, Mahmood A (2019) A context-aware accurate wellness determination
+  (caawd) model for elderly people using lazy associative classification.
+  Sensors 19(7), \doi{10.3390/s19071613},
+  \urlprefix\url{http://www.mdpi.com/1424-8220/19/7/1613}
+
+\bibitem[{Xu and Abur(2004)}]{xu}
+Xu B, Abur A (2004) Observability analysis and measurement placement for
+  systems with pmus. In: IEEE PES Power Systems Conference and Exposition,
+  2004., pp 943--946 vol.2, \doi{10.1109/PSCE.2004.1397683}
+
+\bibitem[{{Zanella} et~al.(2014){Zanella}, {Bui}, {Castellani}, {Vangelista},
+  and {Zorzi}}]{zanella}
+{Zanella} A, {Bui} N, {Castellani} A, {Vangelista} L, {Zorzi} M (2014) Internet
+  of things for smart cities. IEEE Internet of Things Journal 1(1):22--32,
+  \doi{10.1109/JIOT.2014.2306328}
+
+\bibitem[{Zuraimi et~al.(2017)Zuraimi, Pantazaras, Chaturvedi, Yang, Tham, and
+  Lee}]{elsevier_co2}
+Zuraimi M, Pantazaras A, Chaturvedi K, Yang J, Tham K, Lee S (2017) Predicting
+  occupancy counts using physical and statistical co2-based modeling
+  methodologies. Building and Environment 123:517 -- 528,
+  \doi{https://doi.org/10.1016/j.buildenv.2017.07.027},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0360132317303268}
+
+\end{thebibliography}
