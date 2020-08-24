@@ -1,0 +1,306 @@
+\begin{thebibliography}{10}
+
+\bibitem{elsevier_hvac}
+K.E.~M. Reena, A.~T. Mathew, and L.~Jacob.
+\newblock A flexible control strategy for energy and comfort aware hvac in
+  large buildings.
+\newblock {\em Building and Environment}, 145:330 -- 342, 2018.
+
+\bibitem{karmakar}
+G.~Karmakar, U.~Arote, A.~Agarwal, and K.~Ramamritham.
+\newblock Adaptive hybrid approaches to thermal modeling of building.
+\newblock In {\em Proceedings of the Ninth International Conference on Future
+  Energy Systems}, e-Energy '18, pages 477--479, New York, NY, USA, 2018. ACM.
+
+\bibitem{anshul_sensys_demo}
+A.~Agarwal, K.~Jaiswal, U.~Gudhaka, V.~Munigala, K.~Ramamritham, and
+  G.~Karmakar.
+\newblock Observability-driven sensor deployment in smart academic
+  environments: Demo abstract.
+\newblock In {\em Proceedings of the 14th {ACM} Conference on Embedded Network
+  Sensor Systems, SenSys 2016, Stanford, CA, USA, November 14-16, 2016}, pages
+  328--329, 2016.
+
+\bibitem{bellala_electrons}
+G.~Bellala, M.~Marwah, M.~Arlitt, G.~Lyon, and C.~Bash.
+\newblock Following the electrons: Methods for power management in commercial
+  buildings.
+\newblock In {\em Proceedings of the 18th ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, KDD '12, pages 994--1002, New York,
+  NY, USA, 2012. ACM.
+
+\bibitem{meyn}
+S.~Meyn, A.~Surana, Y.~Lin, S.~M. Oggianu, S.~Narayanan, and T.~A. Frewen.
+\newblock A sensor-utility-network method for estimation of occupancy in
+  buildings.
+\newblock In {\em Proceedings of the 48h IEEE Conference on Decision and
+  Control (CDC) held jointly with 2009 28th Chinese Control Conference}, pages
+  1494--1500, Dec 2009.
+
+\bibitem{hitchhiker_sensors}
+T.~W. Hnat, V.~Srinivasan, J.~Lu, T.~I. Sookoor, R.~Dawson, J.~Stankovic, and
+  K.~Whitehouse.
+\newblock The hitchhiker's guide to successful residential sensing deployments.
+\newblock In {\em Proceedings of the 9th ACM SenSys}, pages 232--245, NY, USA,
+  2011. ACM.
+
+\bibitem{stankovic_iot}
+J.~A. Stankovic.
+\newblock Research directions for the internet of things.
+\newblock {\em IEEE Internet of Things Journal}, 1(1):3--9, Feb 2014.
+
+\bibitem{IntofTrash}
+{The Internet of Trash: IoT Has a Looming E-Waste Problem}.
+\newblock 2018.
+
+\bibitem{occupancy_wifi}
+B.~S. Ciftler, S.~Dikmese, A.~Guvenc, K.~Akkaya, and A.~Kadri.
+\newblock Occupancy counting with burst and intermittent signals in smart
+  buildings.
+\newblock {\em IEEE Internet of Things Journal}, 5(2):724--735, April 2018.
+
+\bibitem{zanella}
+A.~{Zanella}, N.~{Bui}, A.~{Castellani}, L.~{Vangelista}, and M.~{Zorzi}.
+\newblock Internet of things for smart cities.
+\newblock {\em IEEE Internet of Things Journal}, 1(1):22--32, Feb 2014.
+
+\bibitem{building_smart}
+M.~El-Shafie and L.~Fakeih.
+\newblock The smart environment of commercial buildings.
+\newblock In {\em 2018 15th Learning and Technology Conference (L T)}, pages
+  161--166, Feb 2018.
+
+\bibitem{iot_sb_bigdata}
+M.~R. {Bashir} and A.~Q. {Gill}.
+\newblock Towards an iot big data analytics framework: Smart buildings systems.
+\newblock In {\em 2016 IEEE 18th International Conference on High Performance
+  Computing and Communications; IEEE 14th International Conference on Smart
+  City; IEEE 2nd International Conference on Data Science and Systems
+  (HPCC/SmartCity/DSS)}, pages 1325--1332, Dec 2016.
+
+\bibitem{iot_sb_challenges}
+B.~L.~R. Stojkoska and K.~V. Trivodaliev.
+\newblock A review of internet of things for smart home: Challenges and
+  solutions.
+\newblock {\em Journal of Cleaner Production}, 140:1454 -- 1464, 2017.
+
+\bibitem{iot_sb_ems_opti}
+D.~{Minoli}, K.~{Sohraby}, and B.~{Occhiogrosso}.
+\newblock Iot considerations, requirements, and architectures for smart
+  buildings—energy optimization and next-generation building management
+  systems.
+\newblock {\em IEEE Internet of Things Journal}, 4(1):269--283, Feb 2017.
+
+\bibitem{iot_sb_prototype}
+J.~{Pan}, R.~{Jain}, S.~{Paul}, T.~{Vu}, A.~{Saifullah}, and M.~{Sha}.
+\newblock An internet of things framework for smart energy in buildings:
+  Designs, prototype, and experiments.
+\newblock {\em IEEE Internet of Things Journal}, 2(6):527--537, Dec 2015.
+
+\bibitem{iot_sb_safir}
+J.~L. Hernández-Ramos, M.~V. Moreno, J.~B. Bernabé, D.~G. Carrillo, and A.~F.
+  Skarmeta.
+\newblock Safir: Secure access framework for iot-enabled services on smart
+  buildings.
+\newblock {\em Journal of Computer and System Sciences}, 81(8):1452 -- 1463,
+  2015.
+
+\bibitem{iot_sb_wsn}
+H.~Ghayvat, S.~Mukhopadhyay, X.~Gui, and N.~Suryadevara.
+\newblock Wsn- and iot-based smart homes and their extension to smart
+  buildings.
+\newblock {\em Sensors}, 15(5):10350–10379, May 2015.
+
+\bibitem{tf_pricing}
+L.~Tao, Y.~Gao, Y.~Liu, and H.~Zhu.
+\newblock A rolling penalty function algorithm of real-time pricing for smart
+  microgrids based on bilevel programming.
+\newblock {\em Engineering Optimization}, 0(0):1--18, 2019.
+
+\bibitem{cmot_bid}
+George Gross and David Finlay.
+\newblock Generation supply bidding in perfectly competitive electricity
+  markets.
+\newblock {\em Computational {\&} Mathematical Organization Theory},
+  6(1):83--98, May 2000.
+
+\bibitem{tf_renewable}
+A.~M. Eltamaly, M.~A. Mohamed, M.~S. Al-Saud, and A.~I. Alolah.
+\newblock Load management as a smart grid concept for sizing and designing of
+  hybrid renewable energy systems.
+\newblock {\em Engineering Optimization}, 49(10):1813--1828, 2017.
+
+\bibitem{tf_swarm}
+J.~Radosavljević, M.~Jevtić, and D.~Klimenta.
+\newblock Energy and operation management of a microgrid using particle swarm
+  optimization.
+\newblock {\em Engineering Optimization}, 48(5):811--830, 2016.
+
+\bibitem{anshuleEnergy16}
+A.~Agarwal, V.~Munigala, and K.~Ramamritham.
+\newblock Observability: replacing sensors with inference engines.
+\newblock In {\em Proceedings of the Seventh International Conference on Future
+  Energy Systems, Waterloo, ON, Canada, June 21 - 24, 2016 - Poster Sessions},
+  pages 9:1--9:2, 2016.
+
+\bibitem{balaji}
+B.~Balaji, J.~Xu, A.~Nwokafor, R.~Gupta, and Y.~Agarwal.
+\newblock Sentinel: Occupancy based hvac actuation using existing wifi
+  infrastructure within commercial buildings.
+\newblock In {\em Proceedings of the 11th ACM Conference SenSys '13}, pages
+  17:1--17:14, New York, NY, USA, 2013. ACM.
+
+\bibitem{virtual_senors}
+S.~Kabadayi, A.~Pridgen, and C.~Julien.
+\newblock Virtual sensors: abstracting data from physical sensors.
+\newblock In {\em 2006 International Symposium on a World of Wireless, Mobile
+  and Multimedia Networks(WoWMoM'06)}, pages 6 pp.--592, 2006.
+
+\bibitem{softgreen}
+L.~V. Thanayankizil, S.~K. Ghai, D.~Chakraborty, and D.~P. Seetharam.
+\newblock Softgreen: Towards energy management of green office buildings with
+  soft sensors.
+\newblock In {\em 2012 Fourth International Conference on Communication Systems
+  and Networks (COMSNETS 2012)}, pages 1--6, Jan 2012.
+
+\bibitem{elsevier_co2}
+M.S. Zuraimi, A.~Pantazaras, K.A. Chaturvedi, J.J. Yang, K.W. Tham, and S.E.
+  Lee.
+\newblock Predicting occupancy counts using physical and statistical co2-based
+  modeling methodologies.
+\newblock {\em Building and Environment}, 123:517 -- 528, 2017.
+
+\bibitem{elsevier_occ_realtime}
+S.~Salimi, Z.~Liu, and A.~Hammad.
+\newblock Occupancy prediction model for open-plan offices using real-time
+  location system and inhomogeneous markov chain.
+\newblock {\em Building and Environment}, 152:1 -- 16, 2019.
+
+\bibitem{brown_fan}
+T.~Ekwevugbe, N.~Brown, and D.~Fan.
+\newblock A design model for building occupancy detection using sensor fusion.
+\newblock In {\em 2012 6th IEEE International Conference on Digital Ecosystems
+  and Technologies (DEST)}, pages 1--6, June 2012.
+
+\bibitem{tcps_bellala}
+G.~Bellala, M.~Marwah, M.~Arlitt, G.~Lyon, C.~Bash, and A.~Shah.
+\newblock Data analytics for managing power in commercial buildings.
+\newblock {\em ACM Trans. Cyber-Phys. Syst.}, 1(4):22:1--22:25, August 2017.
+
+\bibitem{sensors_cloud_behaviour}
+N.~Mora, G.~Matrella, and P.~Ciampolini.
+\newblock Cloud-based behavioral monitoring in smart homes.
+\newblock {\em Sensors}, 18(6), 2018.
+
+\bibitem{tcps_virtualpowermeter}
+S.~Barker, S.~Kalra, D.~Irwin, and P.~Shenoy.
+\newblock Building virtual power meters for online load tracking.
+\newblock {\em ACM Trans. Cyber-Phys. Syst.}, 3(2):23:1--23:24, February 2019.
+
+\bibitem{tcps_solarcast}
+S.~Iyengar, N.~Sharma, D.~Irwin, P.~Shenoy, and K.~Ramamritham.
+\newblock A cloud-based black-box solar predictor for smart homes.
+\newblock {\em ACM Trans. Cyber-Phys. Syst.}, 1(4):21:1--21:24, August 2017.
+
+\bibitem{sensors_caawd}
+F.~S. Ujager and A.~Mahmood.
+\newblock A context-aware accurate wellness determination (caawd) model for
+  elderly people using lazy associative classification.
+\newblock {\em Sensors}, 19(7), 2019.
+
+\bibitem{scs_ob}
+J.~Li, Z.~(J.) Yu, F.~Haghighat, and G.~Zhang.
+\newblock Development and improvement of occupant behavior models towards
+  realistic building performance simulation: A review.
+\newblock {\em Sustainable Cities and Society}, 50:101685, 2019.
+
+\bibitem{lu}
+J.~Lu, T.~Sookoor, V.~Srinivasan, G.~Gao, B.~Holben, J.~Stankovic, E.~Field,
+  and K.~Whitehouse.
+\newblock The smart thermostat: Using occupancy sensors to save energy in
+  homes.
+\newblock In {\em Proceedings of the 8th ACM Conference on Embedded Networked
+  Sensor Systems}, SenSys '10, pages 211--224, New York, NY, USA, 2010. ACM.
+
+\bibitem{chang}
+X.~Chang, R.~Tan, G.~Xing, Z.~Yuan, C.~Lu, Y.~Chen, and Y.~Yang.
+\newblock Sensor placement algorithms for fusion-based surveillance networks.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  22(8):1407--1414, Aug 2011.
+
+\bibitem{max_info_min_comm}
+A.~Krause, C.~Guestrin, A.~Gupta, and J.~Kleinberg.
+\newblock Near-optimal sensor placements: maximizing information while
+  minimizing communication cost.
+\newblock In {\em 2006 5th International Conference IPSN}, pages 2--10, April
+  2006.
+
+\bibitem{smartmeter}
+A.~K. Prakash, V.~C. Prakash, B.~Doshi, U.~Arote, P.~K. Sahu, and
+  K.~Ramamritham.
+\newblock Locating and sizing smart meter deployment in buildings.
+\newblock In {\em Proceedings of the 2015 ACM Sixth International Conference on
+  Future Energy Systems}, e-Energy '15, pages 223--224, New York, NY, USA,
+  2015. ACM.
+
+\bibitem{brick}
+B.~Balaji, A.~Bhattacharya, G.~Fierro, J.~Gao, J.~Gluck, D.~Hong, A.~Johansen,
+  J.~Koh, J.~Ploennigs, Y.~Agarwal, M.~Berges, D.~Culler, R.~Gupta, M.~B.
+  Kj{\ae}rgaard, M.~Srivastava, and K.~Whitehouse.
+\newblock Brick: Towards a unified metadata schema for buildings.
+\newblock In {\em Proceedings of the 3rd ACM International Conference BuildSys
+  '16}, pages 41--50, New York, NY, USA, 2016. ACM.
+
+\bibitem{pmu}
+A.~G. Phadke.
+\newblock Synchronized phasor measurements in power systems.
+\newblock {\em IEEE Computer Applications in Power}, 6(2):10--15, April 1993.
+
+\bibitem{ree_centeno}
+J.~D.~L. Ree, V.~Centeno, J.~S. Thorp, and A.~G. Phadke.
+\newblock Synchronized phasor measurement applications in power systems.
+\newblock {\em IEEE Transactions on Smart Grid}, 1(1):20--27, June 2010.
+
+\bibitem{pmu_review}
+S.~S. {Noureen}, V.~{Roy}, and S.~B. {Bayne}.
+\newblock Phasor measurement unit integration: A review on optimal pmu
+  placement methods in power system.
+\newblock In {\em 2017 IEEE Region 10 Humanitarian Technology Conference
+  (R10-HTC)}, pages 328--332, Dec 2017.
+
+\bibitem{taxonomy_pmu}
+N.~M. Manousakis, G.~N. Korres, and P.~S. Georgilakis.
+\newblock Taxonomy of pmu placement methodologies.
+\newblock {\em IEEE Transactions on Power Systems}, 27(2):1070--1077, May 2012.
+
+\bibitem{gyllstrom}
+D.~Gyllstrom, E.~Rosensweig, and J.~Kurose.
+\newblock On the impact of pmu placement on observability and cross-validation.
+\newblock In {\em Proceedings of the 3rd International Conference on Future
+  Energy Systems: Where Energy, Computing and Communication Meet}, e-Energy
+  '12, pages 20:1--20:10, New York, NY, USA, 2012. ACM.
+
+\bibitem{soman}
+D.~Dua, S.~Dambhare, R.~K. Gajbhiye, and S.~A. Soman.
+\newblock Optimal multistage scheduling of pmu placement: An ilp approach.
+\newblock {\em IEEE Transactions on Power Delivery}, 23(4):1812--1820, Oct
+  2008.
+
+\bibitem{abur}
+A.~Abur and F.~H. Magnago.
+\newblock Optimal meter placement for maintaining observability during single
+  branch outages.
+\newblock {\em IEEE Transactions on Power Systems}, 14(4):1273--1278, Nov 1999.
+
+\bibitem{xu}
+B.~Xu and A.~Abur.
+\newblock Observability analysis and measurement placement for systems with
+  pmus.
+\newblock In {\em IEEE PES Power Systems Conference and Exposition, 2004.},
+  pages 943--946 vol.2, Oct 2004.
+
+\bibitem{pulp}
+S.~Mitchell, S.~Mitchell Consulting, and I.~Dunning.
+\newblock Pulp: A linear programming toolkit for python, 2011.
+
+\end{thebibliography}
